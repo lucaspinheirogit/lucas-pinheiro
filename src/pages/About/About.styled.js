@@ -14,20 +14,22 @@ export const Container = styled.div`
 
 export const InnerContainer = styled.div`
   width: 100%;
-  max-width: 960px;
+  max-width: 1200px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   color: white;
   text-align: center;
   padding: 2em 1em;
 `
 
 export const Title = styled.h2`
-  font-size: 24px;
+  font-size: 32px;
+  margin-bottom: auto;
+  font-family: Minimal;
 
   @media ${responsive.md} {
-    font-size: 32px;
+    font-size: 40px;
   }
 `
 
@@ -35,6 +37,7 @@ export const ContentContainer = styled.div`
   display: flex;
   flex-direction: column;
   background: #000f30;
+  margin-bottom: auto;
 `
 
 export const Content = styled.div`
@@ -72,9 +75,4 @@ export const ContentText = styled.p`
   @media ${responsive.md} {
     font-size: 22px;
   }
-`
-
-export const CarouselImage = styled.img`
-  width: 75%;
-  height: auto;
 `

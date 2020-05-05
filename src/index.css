@@ -16,3 +16,13 @@ body {
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
+
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: #000f30;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 15px;
+  background-color: #fff;
+}

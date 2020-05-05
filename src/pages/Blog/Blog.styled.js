@@ -1,6 +1,8 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 
-import { responsive } from 'utils'
+import { responsive, ifStyle } from 'utils'
+
+const isHovered = ifStyle('hovered')
 
 export const Container = styled.div`
   min-height: 100vh;
@@ -15,7 +17,7 @@ export const Container = styled.div`
 
 export const InnerContainer = styled.div`
   width: 100%;
-  max-width: 960px;
+  max-width: 1200px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -25,20 +27,104 @@ export const InnerContainer = styled.div`
 `
 
 export const Title = styled.h2`
-  font-size: 24px;
+  font-size: 32px;
+  font-family: Minimal;
 
   @media ${responsive.md} {
-    font-size: 32px;
+    font-size: 40px;
   }
 `
 
-export const Content = styled.p`
-  font-size: 14px;
+export const Text = styled.p`
   font-family: 'Manrope', sans-serif;
-  word-break: break-word;
-  text-align: justify;
+  font-size: 14px;
 
   @media ${responsive.md} {
     font-size: 22px;
+  }
+`
+
+export const ArticlesContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+`
+
+export const Article = styled.div`
+  flex-basis: 100%;
+  position: relative;
+  margin: 0.5em;
+  overflow: hidden;
+  border-radius: 1em;
+
+  &:hover {
+    img {
+      transform: scale(1.5);
+    }
+  }
+
+  @media ${responsive.sm} {
+    flex-basis: 47%;
+  }
+  @media ${responsive.md} {
+    flex-basis: 31%;
+  }
+`
+
+export const ArticleImage = styled.img`
+  display: inline;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s ease-in-out;
+`
+
+export const ArticleOverlay = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1em 2em;
+  background-color: #141c31;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: 0.65s ease-in-out;
+
+  ${isHovered(css`
+    opacity: 1;
+  `)};
+`
+
+export const ArticleTitle = styled.h2`
+  color: white;
+  font-size: 14px;
+  margin-bottom: 0.5em;
+
+  @media ${responsive.md} {
+    font-size: 16px;
+  }
+`
+
+export const ArticleButton = styled.a`
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  border: 1px solid #7510f7;
+  background: transparent;
+  color: white;
+  padding: 7px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: 0.5s ease-in-out;
+  font-family: 'Manrope', sans-serif;
+  font-size: 18px;
+
+  &:hover {
+    background: #7510f7;
   }
 `

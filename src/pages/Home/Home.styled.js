@@ -43,21 +43,16 @@ export const MediaIcon = styled(Icon)`
   }
 `
 
+export const ArrowIconContainer = styled.a`
+  all: unset;
+  cursor: pointer;
+`
+
 export const ArrowIcon = styled(FontAwesomeIcon)`
   font-size: 24px;
   position: absolute;
   bottom: 5%;
   left: 50%;
   color: white;
-  animation: up-and-down 1s infinite alternate;
   transform: translateX(-50%);
-
-  @keyframes up-and-down {
-    from {
-      transform: translate(-50%, 10px);
-    }
-    to {
-      transform: translate(-50%, -10px);
-    }
-  }
 `
