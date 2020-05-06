@@ -1,5 +1,7 @@
 import React from 'react'
 
+import { Wallpaper2, Wallpaper3 } from 'assets/images'
+
 import Layout from 'components/Layout'
 import { Home, About, Invisible, Blog, Projects } from 'pages'
 
@@ -8,9 +10,9 @@ const App = () => {
     <Layout>
       <Home />
       <About />
-      <Invisible filter="sepia(0.75) saturate(5)" />
+      <Invisible imgSrc={Wallpaper2} />
       <Projects />
-      <Invisible filter="hue-rotate(25deg) saturate(1.5) brightness(1.25)" />
+      <Invisible imgSrc={Wallpaper3} />
       <Blog />
     </Layout>
   )

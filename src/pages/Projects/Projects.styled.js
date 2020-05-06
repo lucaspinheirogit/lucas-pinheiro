@@ -6,7 +6,7 @@ import { responsive, ifStyle } from 'utils'
 const isMobile = ifStyle('mobile')
 
 export const Container = styled.div`
-  min-height: 100vh;
+  min-height: 85vh;
   display: flex;
   justify-content: center;
   color: white;

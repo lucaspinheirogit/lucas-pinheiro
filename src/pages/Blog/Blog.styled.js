@@ -5,7 +5,7 @@ import { responsive, ifStyle } from 'utils'
 const isHovered = ifStyle('hovered')
 
 export const Container = styled.div`
-  min-height: 100vh;
+  min-height: 85vh;
   display: flex;
   justify-content: center;
   color: white;

@@ -13,5 +13,5 @@ export const ARTICLES = [
     text: 'Contribuindo para a comunidade',
     imgSrc: Artigo2,
     url: 'https://medium.com/@lucas_pinheiro/contribuindo-para-a-comunidade-f5fdbfcc448'
-  },
+  }
 ]
