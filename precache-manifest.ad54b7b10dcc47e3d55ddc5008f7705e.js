@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3df8f45faf6e97dd1dd40cdab6f0cfd6",
+    "revision": "783db4ddbaf82a6ef8e2ab02ca9604bf",
     "url": "/lucas-pinheiro/index.html"
   },
   {
-    "revision": "69ee96366d35045e0d44",
+    "revision": "604bf9bbd880b5234ac3",
     "url": "/lucas-pinheiro/static/css/2.2b4f0854.chunk.css"
   },
   {
-    "revision": "a2375f7aefc1557a4f8b",
+    "revision": "6a56e0be34dbe298568d",
     "url": "/lucas-pinheiro/static/css/main.e67497e9.chunk.css"
   },
   {
-    "revision": "69ee96366d35045e0d44",
-    "url": "/lucas-pinheiro/static/js/2.9ef1792a.chunk.js"
+    "revision": "604bf9bbd880b5234ac3",
+    "url": "/lucas-pinheiro/static/js/2.e54bb844.chunk.js"
   },
   {
     "revision": "117d65892edc8adcd29d4a0d57b5a80a",
-    "url": "/lucas-pinheiro/static/js/2.9ef1792a.chunk.js.LICENSE.txt"
+    "url": "/lucas-pinheiro/static/js/2.e54bb844.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a2375f7aefc1557a4f8b",
-    "url": "/lucas-pinheiro/static/js/main.7b8ad942.chunk.js"
+    "revision": "6a56e0be34dbe298568d",
+    "url": "/lucas-pinheiro/static/js/main.ac070731.chunk.js"
   },
   {
     "revision": "92e82604792dc766d84e",
@@ -36,12 +36,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lucas-pinheiro/static/media/algorithm.daa1b196.svg"
   },
   {
-    "revision": "ed1a5f401582ddc65919546452859125",
-    "url": "/lucas-pinheiro/static/media/artigo1.ed1a5f40.png"
+    "revision": "2091cfe40961e4cc27fd1e5511d3f1ab",
+    "url": "/lucas-pinheiro/static/media/artigo1.2091cfe4.jpg"
   },
   {
-    "revision": "41b94e7cc735613f870547d30484dfb2",
-    "url": "/lucas-pinheiro/static/media/artigo2.41b94e7c.png"
+    "revision": "d884f2875205cce2d31fbfc848abfa74",
+    "url": "/lucas-pinheiro/static/media/artigo2.d884f287.jpg"
   },
   {
     "revision": "ca7c5afde7aa162e8f67590f3e8b9d92",
@@ -104,8 +104,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lucas-pinheiro/static/media/slick.f97e3bbf.svg"
   },
   {
-    "revision": "e4ea978a9088ea4b90af85893179e063",
-    "url": "/lucas-pinheiro/static/media/wallpaper.e4ea978a.jpg"
+    "revision": "bfce83cde14eadb29addad638dec1d9f",
+    "url": "/lucas-pinheiro/static/media/wallpaper.bfce83cd.jpg"
+  },
+  {
+    "revision": "f588cadb2ba3c686091ed33834b456da",
+    "url": "/lucas-pinheiro/static/media/wallpaper2.f588cadb.jpg"
+  },
+  {
+    "revision": "663b09bb09f2abf170283494262967a5",
+    "url": "/lucas-pinheiro/static/media/wallpaper3.663b09bb.jpg"
   },
   {
     "revision": "3bac67174a4c71e272d9e8094a14e643",
