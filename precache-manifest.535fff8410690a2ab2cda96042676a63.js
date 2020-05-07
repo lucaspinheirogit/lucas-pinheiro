@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "45eca7d80723474dde13961ca8ac75ff",
+    "revision": "0f54cd3a64579c046bbbcad49a7cb07a",
     "url": "/lucas-pinheiro/index.html"
   },
   {
-    "revision": "5994bd12fb38a46006c2",
+    "revision": "1946534cff61134f5452",
     "url": "/lucas-pinheiro/static/css/2.2b4f0854.chunk.css"
   },
   {
-    "revision": "b26ec82398b7b0b008a9",
+    "revision": "0d61a8b8230d8be0263b",
     "url": "/lucas-pinheiro/static/css/main.e67497e9.chunk.css"
   },
   {
-    "revision": "5994bd12fb38a46006c2",
-    "url": "/lucas-pinheiro/static/js/2.e5cd43e7.chunk.js"
+    "revision": "1946534cff61134f5452",
+    "url": "/lucas-pinheiro/static/js/2.931fe727.chunk.js"
   },
   {
     "revision": "117d65892edc8adcd29d4a0d57b5a80a",
-    "url": "/lucas-pinheiro/static/js/2.e5cd43e7.chunk.js.LICENSE.txt"
+    "url": "/lucas-pinheiro/static/js/2.931fe727.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b26ec82398b7b0b008a9",
-    "url": "/lucas-pinheiro/static/js/main.bcdc5a74.chunk.js"
+    "revision": "0d61a8b8230d8be0263b",
+    "url": "/lucas-pinheiro/static/js/main.8689c0b0.chunk.js"
   },
   {
     "revision": "92e82604792dc766d84e",
@@ -110,22 +110,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bfce83cde14eadb29addad638dec1d9f",
     "url": "/lucas-pinheiro/static/media/wallpaper.bfce83cd.jpg"
-  },
-  {
-    "revision": "adffa748a9b92a8fa23e2fe4a21a7fe2",
-    "url": "/lucas-pinheiro/static/media/wallpaper2-mobile.adffa748.jpg"
-  },
-  {
-    "revision": "f588cadb2ba3c686091ed33834b456da",
-    "url": "/lucas-pinheiro/static/media/wallpaper2.f588cadb.jpg"
-  },
-  {
-    "revision": "9f2fdc84f33527bab60bc40a920e6f26",
-    "url": "/lucas-pinheiro/static/media/wallpaper3-mobile.9f2fdc84.jpg"
-  },
-  {
-    "revision": "663b09bb09f2abf170283494262967a5",
-    "url": "/lucas-pinheiro/static/media/wallpaper3.663b09bb.jpg"
   },
   {
     "revision": "3bac67174a4c71e272d9e8094a14e643",

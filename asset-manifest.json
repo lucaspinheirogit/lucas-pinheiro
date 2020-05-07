@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/lucas-pinheiro/static/css/main.e67497e9.chunk.css",
-    "main.js": "/lucas-pinheiro/static/js/main.bcdc5a74.chunk.js",
-    "main.js.map": "/lucas-pinheiro/static/js/main.bcdc5a74.chunk.js.map",
+    "main.js": "/lucas-pinheiro/static/js/main.8689c0b0.chunk.js",
+    "main.js.map": "/lucas-pinheiro/static/js/main.8689c0b0.chunk.js.map",
     "runtime-main.js": "/lucas-pinheiro/static/js/runtime-main.70e4e58a.js",
     "runtime-main.js.map": "/lucas-pinheiro/static/js/runtime-main.70e4e58a.js.map",
     "static/css/2.2b4f0854.chunk.css": "/lucas-pinheiro/static/css/2.2b4f0854.chunk.css",
-    "static/js/2.e5cd43e7.chunk.js": "/lucas-pinheiro/static/js/2.e5cd43e7.chunk.js",
-    "static/js/2.e5cd43e7.chunk.js.map": "/lucas-pinheiro/static/js/2.e5cd43e7.chunk.js.map",
+    "static/js/2.931fe727.chunk.js": "/lucas-pinheiro/static/js/2.931fe727.chunk.js",
+    "static/js/2.931fe727.chunk.js.map": "/lucas-pinheiro/static/js/2.931fe727.chunk.js.map",
     "index.html": "/lucas-pinheiro/index.html",
-    "precache-manifest.1e924689dadf9714974549b07e40f0c5.js": "/lucas-pinheiro/precache-manifest.1e924689dadf9714974549b07e40f0c5.js",
+    "precache-manifest.535fff8410690a2ab2cda96042676a63.js": "/lucas-pinheiro/precache-manifest.535fff8410690a2ab2cda96042676a63.js",
     "service-worker.js": "/lucas-pinheiro/service-worker.js",
     "static/css/2.2b4f0854.chunk.css.map": "/lucas-pinheiro/static/css/2.2b4f0854.chunk.css.map",
     "static/css/main.e67497e9.chunk.css.map": "/lucas-pinheiro/static/css/main.e67497e9.chunk.css.map",
-    "static/js/2.e5cd43e7.chunk.js.LICENSE.txt": "/lucas-pinheiro/static/js/2.e5cd43e7.chunk.js.LICENSE.txt",
+    "static/js/2.931fe727.chunk.js.LICENSE.txt": "/lucas-pinheiro/static/js/2.931fe727.chunk.js.LICENSE.txt",
     "static/media/Capturar.PNG": "/lucas-pinheiro/static/media/Capturar.8e4ce864.PNG",
     "static/media/algorithm.svg": "/lucas-pinheiro/static/media/algorithm.daa1b196.svg",
     "static/media/artigo1.jpg": "/lucas-pinheiro/static/media/artigo1.2091cfe4.jpg",
@@ -32,17 +32,13 @@
     "static/media/slick-theme.css": "/lucas-pinheiro/static/media/slick.f97e3bbf.svg",
     "static/media/wallpaper-mobile.jpg": "/lucas-pinheiro/static/media/wallpaper-mobile.291153e9.jpg",
     "static/media/wallpaper.jpg": "/lucas-pinheiro/static/media/wallpaper.bfce83cd.jpg",
-    "static/media/wallpaper2-mobile.jpg": "/lucas-pinheiro/static/media/wallpaper2-mobile.adffa748.jpg",
-    "static/media/wallpaper2.jpg": "/lucas-pinheiro/static/media/wallpaper2.f588cadb.jpg",
-    "static/media/wallpaper3-mobile.jpg": "/lucas-pinheiro/static/media/wallpaper3-mobile.9f2fdc84.jpg",
-    "static/media/wallpaper3.jpg": "/lucas-pinheiro/static/media/wallpaper3.663b09bb.jpg",
     "static/media/whatsapp.svg": "/lucas-pinheiro/static/media/whatsapp.3bac6717.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.70e4e58a.js",
     "static/css/2.2b4f0854.chunk.css",
-    "static/js/2.e5cd43e7.chunk.js",
+    "static/js/2.931fe727.chunk.js",
     "static/css/main.e67497e9.chunk.css",
-    "static/js/main.bcdc5a74.chunk.js"
+    "static/js/main.8689c0b0.chunk.js"
   ]
 }
