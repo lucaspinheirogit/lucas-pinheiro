@@ -6,13 +6,17 @@ import { responsive, ifStyle } from 'utils'
 const isMobile = ifStyle('mobile')
 
 export const Container = styled.div`
-  min-height: 85vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   color: white;
   position: relative;
   background-color: #000f30;
   background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%2328395e' fill-opacity='0.18'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+
+  @media ${responsive.sm} {
+    min-height: 85vh;
+  }
 `
 
 export const InnerContainer = styled.div`
@@ -59,6 +63,8 @@ export const StyledSlider = styled(Slider)`
 `
 
 export const SliderImageContainer = styled.div`
+  width: 97.5% !important;
+  margin: 0 auto;
   display: flex !important;
   border-radius: 1em;
   border: 1px solid white;
@@ -68,6 +74,7 @@ export const SliderImageContainer = styled.div`
   max-height: 85vh;
 
   @media ${responsive.sm} {
+    width: 95% !important;
     max-height: auto;
   }
 `

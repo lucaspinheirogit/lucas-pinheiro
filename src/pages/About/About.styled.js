@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { responsive } from 'utils'
 
 export const Container = styled.div`
-  min-height: 85vh;
+  min-height: 65vh;
   display: flex;
   justify-content: center;
   color: white;
