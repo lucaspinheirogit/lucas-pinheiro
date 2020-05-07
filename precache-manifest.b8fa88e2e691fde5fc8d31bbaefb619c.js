@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "783db4ddbaf82a6ef8e2ab02ca9604bf",
+    "revision": "f1e411e770504cd14f6bdd1dca9d6ed8",
     "url": "/lucas-pinheiro/index.html"
   },
   {
-    "revision": "604bf9bbd880b5234ac3",
+    "revision": "beab2c123ec24750617f",
     "url": "/lucas-pinheiro/static/css/2.2b4f0854.chunk.css"
   },
   {
-    "revision": "6a56e0be34dbe298568d",
+    "revision": "c6a1cc139b54686e1756",
     "url": "/lucas-pinheiro/static/css/main.e67497e9.chunk.css"
   },
   {
-    "revision": "604bf9bbd880b5234ac3",
-    "url": "/lucas-pinheiro/static/js/2.e54bb844.chunk.js"
+    "revision": "beab2c123ec24750617f",
+    "url": "/lucas-pinheiro/static/js/2.f849fbc9.chunk.js"
   },
   {
     "revision": "117d65892edc8adcd29d4a0d57b5a80a",
-    "url": "/lucas-pinheiro/static/js/2.e54bb844.chunk.js.LICENSE.txt"
+    "url": "/lucas-pinheiro/static/js/2.f849fbc9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6a56e0be34dbe298568d",
-    "url": "/lucas-pinheiro/static/js/main.ac070731.chunk.js"
+    "revision": "c6a1cc139b54686e1756",
+    "url": "/lucas-pinheiro/static/js/main.bc395e46.chunk.js"
   },
   {
     "revision": "92e82604792dc766d84e",
@@ -104,12 +104,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lucas-pinheiro/static/media/slick.f97e3bbf.svg"
   },
   {
+    "revision": "291153e914b4b6a2e72c755b36e5901f",
+    "url": "/lucas-pinheiro/static/media/wallpaper-mobile.291153e9.jpg"
+  },
+  {
     "revision": "bfce83cde14eadb29addad638dec1d9f",
     "url": "/lucas-pinheiro/static/media/wallpaper.bfce83cd.jpg"
   },
   {
+    "revision": "adffa748a9b92a8fa23e2fe4a21a7fe2",
+    "url": "/lucas-pinheiro/static/media/wallpaper2-mobile.adffa748.jpg"
+  },
+  {
     "revision": "f588cadb2ba3c686091ed33834b456da",
     "url": "/lucas-pinheiro/static/media/wallpaper2.f588cadb.jpg"
+  },
+  {
+    "revision": "9f2fdc84f33527bab60bc40a920e6f26",
+    "url": "/lucas-pinheiro/static/media/wallpaper3-mobile.9f2fdc84.jpg"
   },
   {
     "revision": "663b09bb09f2abf170283494262967a5",

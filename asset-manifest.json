@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/lucas-pinheiro/static/css/main.e67497e9.chunk.css",
-    "main.js": "/lucas-pinheiro/static/js/main.ac070731.chunk.js",
-    "main.js.map": "/lucas-pinheiro/static/js/main.ac070731.chunk.js.map",
+    "main.js": "/lucas-pinheiro/static/js/main.bc395e46.chunk.js",
+    "main.js.map": "/lucas-pinheiro/static/js/main.bc395e46.chunk.js.map",
     "runtime-main.js": "/lucas-pinheiro/static/js/runtime-main.70e4e58a.js",
     "runtime-main.js.map": "/lucas-pinheiro/static/js/runtime-main.70e4e58a.js.map",
     "static/css/2.2b4f0854.chunk.css": "/lucas-pinheiro/static/css/2.2b4f0854.chunk.css",
-    "static/js/2.e54bb844.chunk.js": "/lucas-pinheiro/static/js/2.e54bb844.chunk.js",
-    "static/js/2.e54bb844.chunk.js.map": "/lucas-pinheiro/static/js/2.e54bb844.chunk.js.map",
+    "static/js/2.f849fbc9.chunk.js": "/lucas-pinheiro/static/js/2.f849fbc9.chunk.js",
+    "static/js/2.f849fbc9.chunk.js.map": "/lucas-pinheiro/static/js/2.f849fbc9.chunk.js.map",
     "index.html": "/lucas-pinheiro/index.html",
-    "precache-manifest.ad54b7b10dcc47e3d55ddc5008f7705e.js": "/lucas-pinheiro/precache-manifest.ad54b7b10dcc47e3d55ddc5008f7705e.js",
+    "precache-manifest.b8fa88e2e691fde5fc8d31bbaefb619c.js": "/lucas-pinheiro/precache-manifest.b8fa88e2e691fde5fc8d31bbaefb619c.js",
     "service-worker.js": "/lucas-pinheiro/service-worker.js",
     "static/css/2.2b4f0854.chunk.css.map": "/lucas-pinheiro/static/css/2.2b4f0854.chunk.css.map",
     "static/css/main.e67497e9.chunk.css.map": "/lucas-pinheiro/static/css/main.e67497e9.chunk.css.map",
-    "static/js/2.e54bb844.chunk.js.LICENSE.txt": "/lucas-pinheiro/static/js/2.e54bb844.chunk.js.LICENSE.txt",
+    "static/js/2.f849fbc9.chunk.js.LICENSE.txt": "/lucas-pinheiro/static/js/2.f849fbc9.chunk.js.LICENSE.txt",
     "static/media/Capturar.PNG": "/lucas-pinheiro/static/media/Capturar.8e4ce864.PNG",
     "static/media/algorithm.svg": "/lucas-pinheiro/static/media/algorithm.daa1b196.svg",
     "static/media/artigo1.jpg": "/lucas-pinheiro/static/media/artigo1.2091cfe4.jpg",
@@ -30,16 +30,19 @@
     "static/media/nodejs.png": "/lucas-pinheiro/static/media/nodejs.3dee0e30.png",
     "static/media/react.png": "/lucas-pinheiro/static/media/react.6f3658ee.png",
     "static/media/slick-theme.css": "/lucas-pinheiro/static/media/slick.f97e3bbf.svg",
+    "static/media/wallpaper-mobile.jpg": "/lucas-pinheiro/static/media/wallpaper-mobile.291153e9.jpg",
     "static/media/wallpaper.jpg": "/lucas-pinheiro/static/media/wallpaper.bfce83cd.jpg",
+    "static/media/wallpaper2-mobile.jpg": "/lucas-pinheiro/static/media/wallpaper2-mobile.adffa748.jpg",
     "static/media/wallpaper2.jpg": "/lucas-pinheiro/static/media/wallpaper2.f588cadb.jpg",
+    "static/media/wallpaper3-mobile.jpg": "/lucas-pinheiro/static/media/wallpaper3-mobile.9f2fdc84.jpg",
     "static/media/wallpaper3.jpg": "/lucas-pinheiro/static/media/wallpaper3.663b09bb.jpg",
     "static/media/whatsapp.svg": "/lucas-pinheiro/static/media/whatsapp.3bac6717.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.70e4e58a.js",
     "static/css/2.2b4f0854.chunk.css",
-    "static/js/2.e54bb844.chunk.js",
+    "static/js/2.f849fbc9.chunk.js",
     "static/css/main.e67497e9.chunk.css",
-    "static/js/main.ac070731.chunk.js"
+    "static/js/main.bc395e46.chunk.js"
   ]
 }
