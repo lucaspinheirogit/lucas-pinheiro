@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a17453ed2f16dd09e21726cea9fda566",
+    "revision": "0c6f331b8ff5341ec1c017bdaeefcfd3",
     "url": "/lucas-pinheiro/index.html"
   },
   {
-    "revision": "8318d34ef8da5369dd6c",
+    "revision": "21fcc471446c57fbedee",
     "url": "/lucas-pinheiro/static/css/2.2b4f0854.chunk.css"
   },
   {
-    "revision": "dd14d7d1ea5c2378c870",
+    "revision": "9fc7b19b310391c882c4",
     "url": "/lucas-pinheiro/static/css/main.e67497e9.chunk.css"
   },
   {
-    "revision": "8318d34ef8da5369dd6c",
-    "url": "/lucas-pinheiro/static/js/2.4522f175.chunk.js"
+    "revision": "21fcc471446c57fbedee",
+    "url": "/lucas-pinheiro/static/js/2.8d6cc8ea.chunk.js"
   },
   {
     "revision": "117d65892edc8adcd29d4a0d57b5a80a",
-    "url": "/lucas-pinheiro/static/js/2.4522f175.chunk.js.LICENSE.txt"
+    "url": "/lucas-pinheiro/static/js/2.8d6cc8ea.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dd14d7d1ea5c2378c870",
-    "url": "/lucas-pinheiro/static/js/main.933a0e6e.chunk.js"
+    "revision": "9fc7b19b310391c882c4",
+    "url": "/lucas-pinheiro/static/js/main.de74528a.chunk.js"
   },
   {
     "revision": "92e82604792dc766d84e",
@@ -52,12 +52,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lucas-pinheiro/static/media/computer.dcadc8b7.svg"
   },
   {
-    "revision": "2a0b2c2fa3efab4b4ac32c39a491850d",
-    "url": "/lucas-pinheiro/static/media/github.2a0b2c2f.svg"
+    "revision": "3a61fa6434fb2c43ddf735cf8e0c7dc6",
+    "url": "/lucas-pinheiro/static/media/email.3a61fa64.svg"
   },
   {
-    "revision": "8124a8e110e9c5b73b8fffbf3da69760",
-    "url": "/lucas-pinheiro/static/media/instagram.8124a8e1.svg"
+    "revision": "2a0b2c2fa3efab4b4ac32c39a491850d",
+    "url": "/lucas-pinheiro/static/media/github.2a0b2c2f.svg"
   },
   {
     "revision": "36e4c1981d6f3de93024ebdfed39cf5b",
@@ -110,9 +110,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bfce83cde14eadb29addad638dec1d9f",
     "url": "/lucas-pinheiro/static/media/wallpaper.bfce83cd.jpg"
-  },
-  {
-    "revision": "3bac67174a4c71e272d9e8094a14e643",
-    "url": "/lucas-pinheiro/static/media/whatsapp.3bac6717.svg"
   }
 ]);
