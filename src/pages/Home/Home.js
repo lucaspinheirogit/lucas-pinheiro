@@ -17,12 +17,12 @@ const Home = () => (
     <Title>Lucas Pinheiro</Title>
     <MediaContainer>
       {MEDIA_ICONS.map(({ id, imgSrc, url }) => (
-        <>
+        <div key={id}>
           <ReactTooltip id={id} place="bottom" type="light" effect="solid">
             {url}
           </ReactTooltip>
           <MediaIcon data-tip data-for={id} src={imgSrc} url={url} />
-        </>
+        </div>
       ))}
     </MediaContainer>
     <ArrowIconContainer href="#ABOUT">

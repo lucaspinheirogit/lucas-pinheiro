@@ -11,13 +11,13 @@ import {
   ArticleImage,
   ArticleTitle,
   ArticleButton
-} from './Blog.styled'
+} from './Articles.styled'
 import { ARTICLES } from './constants'
 
-const Blog = () => (
+const Articles = () => (
   <Container id="ARTICLES">
     <InnerContainer>
-      <Title>Blog</Title>
+      <Title>Artigos</Title>
       <ArticlesContainer>
         {ARTICLES.map(({ id, text, imgSrc, url }) => (
           <Article key={id}>
@@ -31,9 +31,8 @@ const Blog = () => (
           </Article>
         ))}
       </ArticlesContainer>
-      <Text>Artigos de tecnologia que escrevo no meu tempo livre</Text>
     </InnerContainer>
   </Container>
 )
 
-export default Blog
+export default Articles
