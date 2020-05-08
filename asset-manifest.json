@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/lucas-pinheiro/static/css/main.e67497e9.chunk.css",
-    "main.js": "/lucas-pinheiro/static/js/main.e1c2188f.chunk.js",
-    "main.js.map": "/lucas-pinheiro/static/js/main.e1c2188f.chunk.js.map",
+    "main.js": "/lucas-pinheiro/static/js/main.933a0e6e.chunk.js",
+    "main.js.map": "/lucas-pinheiro/static/js/main.933a0e6e.chunk.js.map",
     "runtime-main.js": "/lucas-pinheiro/static/js/runtime-main.70e4e58a.js",
     "runtime-main.js.map": "/lucas-pinheiro/static/js/runtime-main.70e4e58a.js.map",
     "static/css/2.2b4f0854.chunk.css": "/lucas-pinheiro/static/css/2.2b4f0854.chunk.css",
     "static/js/2.4522f175.chunk.js": "/lucas-pinheiro/static/js/2.4522f175.chunk.js",
     "static/js/2.4522f175.chunk.js.map": "/lucas-pinheiro/static/js/2.4522f175.chunk.js.map",
     "index.html": "/lucas-pinheiro/index.html",
-    "precache-manifest.33f6e08227daa663123336ce4a721c71.js": "/lucas-pinheiro/precache-manifest.33f6e08227daa663123336ce4a721c71.js",
+    "precache-manifest.8bef3a8b07ce8ac4dbccdcc9ecb9a585.js": "/lucas-pinheiro/precache-manifest.8bef3a8b07ce8ac4dbccdcc9ecb9a585.js",
     "service-worker.js": "/lucas-pinheiro/service-worker.js",
     "static/css/2.2b4f0854.chunk.css.map": "/lucas-pinheiro/static/css/2.2b4f0854.chunk.css.map",
     "static/css/main.e67497e9.chunk.css.map": "/lucas-pinheiro/static/css/main.e67497e9.chunk.css.map",
@@ -39,6 +39,6 @@
     "static/css/2.2b4f0854.chunk.css",
     "static/js/2.4522f175.chunk.js",
     "static/css/main.e67497e9.chunk.css",
-    "static/js/main.e1c2188f.chunk.js"
+    "static/js/main.933a0e6e.chunk.js"
   ]
 }
