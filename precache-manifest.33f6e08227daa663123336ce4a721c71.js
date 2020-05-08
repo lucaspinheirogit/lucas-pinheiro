@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0f54cd3a64579c046bbbcad49a7cb07a",
+    "revision": "5e42aeb7d9158c2330008c697a321363",
     "url": "/lucas-pinheiro/index.html"
   },
   {
-    "revision": "1946534cff61134f5452",
+    "revision": "8318d34ef8da5369dd6c",
     "url": "/lucas-pinheiro/static/css/2.2b4f0854.chunk.css"
   },
   {
-    "revision": "0d61a8b8230d8be0263b",
+    "revision": "5ed18a910602ddcfb42a",
     "url": "/lucas-pinheiro/static/css/main.e67497e9.chunk.css"
   },
   {
-    "revision": "1946534cff61134f5452",
-    "url": "/lucas-pinheiro/static/js/2.931fe727.chunk.js"
+    "revision": "8318d34ef8da5369dd6c",
+    "url": "/lucas-pinheiro/static/js/2.4522f175.chunk.js"
   },
   {
     "revision": "117d65892edc8adcd29d4a0d57b5a80a",
-    "url": "/lucas-pinheiro/static/js/2.931fe727.chunk.js.LICENSE.txt"
+    "url": "/lucas-pinheiro/static/js/2.4522f175.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0d61a8b8230d8be0263b",
-    "url": "/lucas-pinheiro/static/js/main.8689c0b0.chunk.js"
+    "revision": "5ed18a910602ddcfb42a",
+    "url": "/lucas-pinheiro/static/js/main.e1c2188f.chunk.js"
   },
   {
     "revision": "92e82604792dc766d84e",

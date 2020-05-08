@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/lucas-pinheiro/static/css/main.e67497e9.chunk.css",
-    "main.js": "/lucas-pinheiro/static/js/main.8689c0b0.chunk.js",
-    "main.js.map": "/lucas-pinheiro/static/js/main.8689c0b0.chunk.js.map",
+    "main.js": "/lucas-pinheiro/static/js/main.e1c2188f.chunk.js",
+    "main.js.map": "/lucas-pinheiro/static/js/main.e1c2188f.chunk.js.map",
     "runtime-main.js": "/lucas-pinheiro/static/js/runtime-main.70e4e58a.js",
     "runtime-main.js.map": "/lucas-pinheiro/static/js/runtime-main.70e4e58a.js.map",
     "static/css/2.2b4f0854.chunk.css": "/lucas-pinheiro/static/css/2.2b4f0854.chunk.css",
-    "static/js/2.931fe727.chunk.js": "/lucas-pinheiro/static/js/2.931fe727.chunk.js",
-    "static/js/2.931fe727.chunk.js.map": "/lucas-pinheiro/static/js/2.931fe727.chunk.js.map",
+    "static/js/2.4522f175.chunk.js": "/lucas-pinheiro/static/js/2.4522f175.chunk.js",
+    "static/js/2.4522f175.chunk.js.map": "/lucas-pinheiro/static/js/2.4522f175.chunk.js.map",
     "index.html": "/lucas-pinheiro/index.html",
-    "precache-manifest.535fff8410690a2ab2cda96042676a63.js": "/lucas-pinheiro/precache-manifest.535fff8410690a2ab2cda96042676a63.js",
+    "precache-manifest.33f6e08227daa663123336ce4a721c71.js": "/lucas-pinheiro/precache-manifest.33f6e08227daa663123336ce4a721c71.js",
     "service-worker.js": "/lucas-pinheiro/service-worker.js",
     "static/css/2.2b4f0854.chunk.css.map": "/lucas-pinheiro/static/css/2.2b4f0854.chunk.css.map",
     "static/css/main.e67497e9.chunk.css.map": "/lucas-pinheiro/static/css/main.e67497e9.chunk.css.map",
-    "static/js/2.931fe727.chunk.js.LICENSE.txt": "/lucas-pinheiro/static/js/2.931fe727.chunk.js.LICENSE.txt",
+    "static/js/2.4522f175.chunk.js.LICENSE.txt": "/lucas-pinheiro/static/js/2.4522f175.chunk.js.LICENSE.txt",
     "static/media/Capturar.PNG": "/lucas-pinheiro/static/media/Capturar.8e4ce864.PNG",
     "static/media/algorithm.svg": "/lucas-pinheiro/static/media/algorithm.daa1b196.svg",
     "static/media/artigo1.jpg": "/lucas-pinheiro/static/media/artigo1.2091cfe4.jpg",
@@ -37,8 +37,8 @@
   "entrypoints": [
     "static/js/runtime-main.70e4e58a.js",
     "static/css/2.2b4f0854.chunk.css",
-    "static/js/2.931fe727.chunk.js",
+    "static/js/2.4522f175.chunk.js",
     "static/css/main.e67497e9.chunk.css",
-    "static/js/main.8689c0b0.chunk.js"
+    "static/js/main.e1c2188f.chunk.js"
   ]
 }
