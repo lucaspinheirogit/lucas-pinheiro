@@ -1,5 +1,6 @@
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
 import React from 'react'
+import Tada from 'react-reveal/Tada'
 import ReactTooltip from 'react-tooltip'
 
 import {
@@ -14,7 +15,9 @@ import { MEDIA_ICONS } from './constants'
 
 const Home = () => (
   <Container id="HOME">
-    <Title>Lucas Pinheiro</Title>
+    <Tada delay={1000}>
+      <Title>Lucas Pinheiro</Title>
+    </Tada>
     <MediaContainer>
       {MEDIA_ICONS.map(({ id, icon, url, placeholder }) => (
         <div key={id}>

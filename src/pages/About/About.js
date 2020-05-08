@@ -1,23 +1,23 @@
 import React from 'react'
-import { CONTENT } from './constants'
+import Zoom from 'react-reveal/Zoom'
 
 import DefaultPage from 'components/DefaultPage'
 
-import {
-  Content,
-  ContentImageContainer,
-  ContentImage,
-  ContentText
-} from './About.styled'
+import { Content, ContentImageContainer, ContentImage, ContentText } from './About.styled'
+import { CONTENT } from './constants'
 
 const About = () => (
   <DefaultPage id="ABOUT" title="Sobre">
     {CONTENT.map(({ id, img, text }) => (
       <Content key={id}>
         <ContentImageContainer>
-          <ContentImage src={img} />
+          <Zoom>
+            <ContentImage src={img} />
+          </Zoom>
         </ContentImageContainer>
-        <ContentText>{text}</ContentText>
+        <ContentText>
+          <Zoom>{text}</Zoom>
+        </ContentText>
       </Content>
     ))}
   </DefaultPage>
