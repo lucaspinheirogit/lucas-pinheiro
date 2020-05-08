@@ -16,12 +16,12 @@ const Home = () => (
   <Container id="HOME">
     <Title>Lucas Pinheiro</Title>
     <MediaContainer>
-      {MEDIA_ICONS.map(({ id, imgSrc, url }) => (
+      {MEDIA_ICONS.map(({ id, icon, url, placeholder }) => (
         <div key={id}>
           <ReactTooltip id={id} place="bottom" type="light" effect="solid">
-            {url}
+            {placeholder}
           </ReactTooltip>
-          <MediaIcon data-tip data-for={id} src={imgSrc} url={url} />
+          <MediaIcon data-tip data-for={id} src={icon} url={url} />
         </div>
       ))}
     </MediaContainer>

@@ -1,35 +1,33 @@
-import { Linkedin, Medium, Instagram, Whatsapp, GitHub } from 'assets/icons'
+import { Linkedin, Medium, GitHub, Email } from 'assets/icons'
 
 const LINKEDIN_URL = 'https://www.linkedin.com/in/lucas-pinheiro-oficial'
 const MEDIUM_URL = 'https://medium.com/@lucas_pinheiro'
-const INSTAGRAM_URL = 'https://www.instagram.com/lucasss_pinheiro'
-const WHATSAPP_URL = 'https://whats.link/lucaspinheiro'
 const GITHUB_URL = 'https://github.com/lucaspinheirogit'
+const EMAIL_URL = 'mailto: lucaspinheiroifsul@gmail.com'
 
 export const MEDIA_ICONS = [
   {
     id: 'github',
-    imgSrc: GitHub,
-    url: GITHUB_URL
+    icon: GitHub,
+    url: GITHUB_URL,
+    placeholder: 'github.com/lucaspinheirogit'
   },
   {
     id: 'linkedin',
-    imgSrc: Linkedin,
-    url: LINKEDIN_URL
+    icon: Linkedin,
+    url: LINKEDIN_URL,
+    placeholder: 'linkedin.com/in/lucas-pinheiro-oficial'
   },
   {
     id: 'medium',
-    imgSrc: Medium,
-    url: MEDIUM_URL
+    icon: Medium,
+    url: MEDIUM_URL,
+    placeholder: 'medium.com/@lucas_pinheiro'
   },
   {
-    id: 'instagram',
-    imgSrc: Instagram,
-    url: INSTAGRAM_URL
-  },
-  {
-    id: 'whatsapp',
-    imgSrc: Whatsapp,
-    url: WHATSAPP_URL
+    id: 'email',
+    icon: Email,
+    url: EMAIL_URL,
+    placeholder: 'lucaspinheiroifsul@gmail.com'
   }
 ]

@@ -1,11 +1,9 @@
 import React from 'react'
 import { CONTENT } from './constants'
 
+import DefaultPage from 'components/DefaultPage'
+
 import {
-  Container,
-  InnerContainer,
-  Title,
-  ContentContainer,
   Content,
   ContentImageContainer,
   ContentImage,
@@ -13,21 +11,16 @@ import {
 } from './About.styled'
 
 const About = () => (
-  <Container id="ABOUT">
-    <InnerContainer>
-      <Title>Sobre</Title>
-      <ContentContainer>
-        {CONTENT.map(({ id, img, text }) => (
-          <Content key={id}>
-            <ContentImageContainer>
-              <ContentImage src={img} />
-            </ContentImageContainer>
-            <ContentText>{text}</ContentText>
-          </Content>
-        ))}
-      </ContentContainer>
-    </InnerContainer>
-  </Container>
+  <DefaultPage id="ABOUT" title="Sobre">
+    {CONTENT.map(({ id, img, text }) => (
+      <Content key={id}>
+        <ContentImageContainer>
+          <ContentImage src={img} />
+        </ContentImageContainer>
+        <ContentText>{text}</ContentText>
+      </Content>
+    ))}
+  </DefaultPage>
 )
 
 export default About

@@ -1,12 +1,9 @@
 import React from 'react'
 
 import { PrimaryButton } from 'components/Buttons'
+import DefaultPage from 'components/DefaultPage'
 
 import {
-  Container,
-  InnerContainer,
-  Title,
-  ContentContainer,
   StyledSlider,
   SliderImageContainer,
   SliderImage,
@@ -24,25 +21,20 @@ const defaultSliderSettings = {
 }
 
 const Projects = () => (
-  <Container id="PROJECTS">
-    <InnerContainer>
-      <Title>PROJETOS</Title>
-      <ContentContainer>
-        <StyledSlider {...defaultSliderSettings}>
-          {PROJECTS.map(({ id, img, mobileImg, text }) => (
-            <SliderImageContainer key={id}>
-              <SliderImage src={img} />
-              <SliderImage mobile src={mobileImg} />
-              <SliderImageDescription>
-                <SliderImageDescriptionText>{text}</SliderImageDescriptionText>
-                <PrimaryButton size="small" label="Ver mais" />
-              </SliderImageDescription>
-            </SliderImageContainer>
-          ))}
-        </StyledSlider>
-      </ContentContainer>
-    </InnerContainer>
-  </Container>
+  <DefaultPage id="PROJECTS" title="Projetos">
+    <StyledSlider {...defaultSliderSettings}>
+      {PROJECTS.map(({ id, img, mobileImg, text }) => (
+        <SliderImageContainer key={id}>
+          <SliderImage src={img} />
+          <SliderImage mobile src={mobileImg} />
+          <SliderImageDescription>
+            <SliderImageDescriptionText>{text}</SliderImageDescriptionText>
+            <PrimaryButton size="small" label="Ver mais" />
+          </SliderImageDescription>
+        </SliderImageContainer>
+      ))}
+    </StyledSlider>
+  </DefaultPage>
 )
 
 export default Projects

@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { responsive } from 'utils'
 import Icon from 'components/Icon'
 
-export const Container = styled.div`
+export const Container = styled.section`
   min-height: 95vh;
   display: flex;
   justify-content: center;
