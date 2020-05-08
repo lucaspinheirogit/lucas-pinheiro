@@ -5,18 +5,18 @@ export const CONTENT = [
     id: 1,
     img: Computer,
     text:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus dapibus erat, ac   congue lacus auctor at. Morbi eget velit vitae augue laoreet mollis tincidunt fringill ipsum.'
+      'Apaixonado por tecnologia, sempre buscando me aprofundar mais no desenvolvimento e criação de produtos que me fazem transformar o mundo através de software.'
   },
   {
     id: 2,
     img: Algorithm,
     text:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus dapibus erat, ac   congue lacus auctor at. Morbi eget velit vitae augue laoreet mollis tincidunt fringill ipsum.'
+      'Motivado por idéias inovadoras e desafios, gosto de divulgar os problemas que superei e ajudar mais pessoas, desça um pouco mais e conheça meus artigos.'
   },
   {
     id: 3,
     img: Code,
     text:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus dapibus erat, ac   congue lacus auctor at. Morbi eget velit vitae augue laoreet mollis tincidunt fringill ipsum.'
+      'Enfim, enquanto meu olhar continuar brilhando toda vez que escrevo uma linha de código, pode ter certeza que continuarei nessa jornada.'
   }
 ]

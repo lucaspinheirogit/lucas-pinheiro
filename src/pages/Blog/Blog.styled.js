@@ -1,8 +1,6 @@
 import styled, { css } from 'styled-components'
 
-import { responsive, ifStyle } from 'utils'
-
-const isHovered = ifStyle('hovered')
+import { responsive } from 'utils'
 
 export const Container = styled.div`
   min-height: 85vh;
@@ -93,9 +91,9 @@ export const ArticleOverlay = styled.div`
   opacity: 0;
   transition: 0.65s ease-in-out;
 
-  ${isHovered(css`
+  &:hover {
     opacity: 1;
-  `)};
+  }
 `
 
 export const ArticleTitle = styled.h2`
