@@ -5,11 +5,16 @@ import { responsive } from 'utils'
 export const ArticlesContainer = styled.div`
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(auto-fit, 350px);
-  grid-template-rows: repeat(auto-fit, 250px);
+  grid-template-columns: repeat(auto-fit, 300px);
+  grid-template-rows: repeat(auto-fit, 200px);
   grid-gap: 1em;
   padding: 1em 0;
   margin: auto 0;
+
+  @media ${responsive.md} {
+    grid-template-columns: repeat(auto-fit, 350px);
+    grid-template-rows: repeat(auto-fit, 250px);
+  }
 `
 
 export const Article = styled.div`

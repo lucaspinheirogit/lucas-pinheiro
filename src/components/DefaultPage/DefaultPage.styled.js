@@ -9,10 +9,6 @@ export const Container = styled.section`
   color: white;
   position: relative;
   background-color: #000f30;
-
-  @media ${responsive.sm} {
-    min-height: 65vh;
-  }
 `
 
 export const InnerContainer = styled.div`
