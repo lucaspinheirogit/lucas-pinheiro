@@ -1,35 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "83b124675ed261ca3202988ed3404e53",
+    "revision": "a764468fb888847b556549ead68b61f2",
     "url": "/lucas-pinheiro/index.html"
   },
   {
-    "revision": "6a874ba3ff4194a2c048",
-    "url": "/lucas-pinheiro/static/css/2.2b4f0854.chunk.css"
+    "revision": "520c5bb056452bb956a0",
+    "url": "/lucas-pinheiro/static/css/2.7f236974.chunk.css"
   },
   {
-    "revision": "da94e54dbc4468431e96",
+    "revision": "f5a837f3fb95c1bc04be",
     "url": "/lucas-pinheiro/static/css/main.e67497e9.chunk.css"
   },
   {
-    "revision": "6a874ba3ff4194a2c048",
-    "url": "/lucas-pinheiro/static/js/2.b25ae716.chunk.js"
+    "revision": "520c5bb056452bb956a0",
+    "url": "/lucas-pinheiro/static/js/2.b2142936.chunk.js"
   },
   {
     "revision": "117d65892edc8adcd29d4a0d57b5a80a",
-    "url": "/lucas-pinheiro/static/js/2.b25ae716.chunk.js.LICENSE.txt"
+    "url": "/lucas-pinheiro/static/js/2.b2142936.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "da94e54dbc4468431e96",
-    "url": "/lucas-pinheiro/static/js/main.b8632023.chunk.js"
+    "revision": "f5a837f3fb95c1bc04be",
+    "url": "/lucas-pinheiro/static/js/main.2b461d1b.chunk.js"
   },
   {
     "revision": "92e82604792dc766d84e",
     "url": "/lucas-pinheiro/static/js/runtime-main.70e4e58a.js"
-  },
-  {
-    "revision": "8e4ce864a9e304efc7322aafb8b3f3f7",
-    "url": "/lucas-pinheiro/static/media/Capturar.8e4ce864.PNG"
   },
   {
     "revision": "daa1b196da384b67bc8939c1c7f4eac5",
@@ -80,8 +76,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lucas-pinheiro/static/media/minimal.5b10b8d3.otf"
   },
   {
-    "revision": "5195a87db45ec8272720c64add444e71",
-    "url": "/lucas-pinheiro/static/media/mobile.5195a87d.PNG"
+    "revision": "37d20485463a17b87fb74997e4cc2397",
+    "url": "/lucas-pinheiro/static/media/missionariogaucho.37d20485.png"
+  },
+  {
+    "revision": "c25cbd80d829b2d02c2a090f33e436b7",
+    "url": "/lucas-pinheiro/static/media/missionariogaucho.c25cbd80.jpg"
   },
   {
     "revision": "3dee0e30fc07251a2b99d6106464dd39",
@@ -108,8 +108,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lucas-pinheiro/static/media/slick.f97e3bbf.svg"
   },
   {
-    "revision": "291153e914b4b6a2e72c755b36e5901f",
-    "url": "/lucas-pinheiro/static/media/wallpaper-mobile.291153e9.jpg"
+    "revision": "b1c9b29820ce63ac9e2035b5923ee3c7",
+    "url": "/lucas-pinheiro/static/media/wallpaper-mobile.b1c9b298.jpg"
   },
   {
     "revision": "bfce83cde14eadb29addad638dec1d9f",
