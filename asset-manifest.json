@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/lucas-pinheiro/static/css/main.e67497e9.chunk.css",
-    "main.js": "/lucas-pinheiro/static/js/main.2b461d1b.chunk.js",
-    "main.js.map": "/lucas-pinheiro/static/js/main.2b461d1b.chunk.js.map",
+    "main.js": "/lucas-pinheiro/static/js/main.b20b8ef0.chunk.js",
+    "main.js.map": "/lucas-pinheiro/static/js/main.b20b8ef0.chunk.js.map",
     "runtime-main.js": "/lucas-pinheiro/static/js/runtime-main.70e4e58a.js",
     "runtime-main.js.map": "/lucas-pinheiro/static/js/runtime-main.70e4e58a.js.map",
-    "static/css/2.7f236974.chunk.css": "/lucas-pinheiro/static/css/2.7f236974.chunk.css",
-    "static/js/2.b2142936.chunk.js": "/lucas-pinheiro/static/js/2.b2142936.chunk.js",
-    "static/js/2.b2142936.chunk.js.map": "/lucas-pinheiro/static/js/2.b2142936.chunk.js.map",
+    "static/css/2.2b4f0854.chunk.css": "/lucas-pinheiro/static/css/2.2b4f0854.chunk.css",
+    "static/js/2.20b4d0d9.chunk.js": "/lucas-pinheiro/static/js/2.20b4d0d9.chunk.js",
+    "static/js/2.20b4d0d9.chunk.js.map": "/lucas-pinheiro/static/js/2.20b4d0d9.chunk.js.map",
     "index.html": "/lucas-pinheiro/index.html",
-    "precache-manifest.47aee1999be25cd9651f5e907dabf957.js": "/lucas-pinheiro/precache-manifest.47aee1999be25cd9651f5e907dabf957.js",
+    "precache-manifest.047a42cd2f714146482808ef85f12d6a.js": "/lucas-pinheiro/precache-manifest.047a42cd2f714146482808ef85f12d6a.js",
     "service-worker.js": "/lucas-pinheiro/service-worker.js",
-    "static/css/2.7f236974.chunk.css.map": "/lucas-pinheiro/static/css/2.7f236974.chunk.css.map",
+    "static/css/2.2b4f0854.chunk.css.map": "/lucas-pinheiro/static/css/2.2b4f0854.chunk.css.map",
     "static/css/main.e67497e9.chunk.css.map": "/lucas-pinheiro/static/css/main.e67497e9.chunk.css.map",
-    "static/js/2.b2142936.chunk.js.LICENSE.txt": "/lucas-pinheiro/static/js/2.b2142936.chunk.js.LICENSE.txt",
+    "static/js/2.20b4d0d9.chunk.js.LICENSE.txt": "/lucas-pinheiro/static/js/2.20b4d0d9.chunk.js.LICENSE.txt",
     "static/media/algorithm.svg": "/lucas-pinheiro/static/media/algorithm.daa1b196.svg",
     "static/media/artigo1.jpg": "/lucas-pinheiro/static/media/artigo1.2091cfe4.jpg",
     "static/media/artigo2.jpg": "/lucas-pinheiro/static/media/artigo2.d884f287.jpg",
@@ -26,8 +26,8 @@
     "static/media/linkedin.svg": "/lucas-pinheiro/static/media/linkedin.84371006.svg",
     "static/media/medium.svg": "/lucas-pinheiro/static/media/medium.b54a0078.svg",
     "static/media/index.css": "/lucas-pinheiro/static/media/minimal.5b10b8d3.otf",
+    "static/media/missionariogaucho-mobile.png": "/lucas-pinheiro/static/media/missionariogaucho-mobile.e9a1b9e1.png",
     "static/media/missionariogaucho.png": "/lucas-pinheiro/static/media/missionariogaucho.37d20485.png",
-    "static/media/missionariogaucho.jpg": "/lucas-pinheiro/static/media/missionariogaucho.c25cbd80.jpg",
     "static/media/nodejs.png": "/lucas-pinheiro/static/media/nodejs.3dee0e30.png",
     "static/media/react.png": "/lucas-pinheiro/static/media/react.6f3658ee.png",
     "static/media/slick-theme.css": "/lucas-pinheiro/static/media/slick.f97e3bbf.svg",
@@ -36,9 +36,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.70e4e58a.js",
-    "static/css/2.7f236974.chunk.css",
-    "static/js/2.b2142936.chunk.js",
+    "static/css/2.2b4f0854.chunk.css",
+    "static/js/2.20b4d0d9.chunk.js",
     "static/css/main.e67497e9.chunk.css",
-    "static/js/main.2b461d1b.chunk.js"
+    "static/js/main.b20b8ef0.chunk.js"
   ]
 }

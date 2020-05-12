@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a764468fb888847b556549ead68b61f2",
+    "revision": "511e37cdbfcbc09387601bf43222b5e2",
     "url": "/lucas-pinheiro/index.html"
   },
   {
-    "revision": "520c5bb056452bb956a0",
-    "url": "/lucas-pinheiro/static/css/2.7f236974.chunk.css"
+    "revision": "357a08d26a1c959e1941",
+    "url": "/lucas-pinheiro/static/css/2.2b4f0854.chunk.css"
   },
   {
-    "revision": "f5a837f3fb95c1bc04be",
+    "revision": "42ae5fe13b3ed6b3e122",
     "url": "/lucas-pinheiro/static/css/main.e67497e9.chunk.css"
   },
   {
-    "revision": "520c5bb056452bb956a0",
-    "url": "/lucas-pinheiro/static/js/2.b2142936.chunk.js"
+    "revision": "357a08d26a1c959e1941",
+    "url": "/lucas-pinheiro/static/js/2.20b4d0d9.chunk.js"
   },
   {
     "revision": "117d65892edc8adcd29d4a0d57b5a80a",
-    "url": "/lucas-pinheiro/static/js/2.b2142936.chunk.js.LICENSE.txt"
+    "url": "/lucas-pinheiro/static/js/2.20b4d0d9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f5a837f3fb95c1bc04be",
-    "url": "/lucas-pinheiro/static/js/main.2b461d1b.chunk.js"
+    "revision": "42ae5fe13b3ed6b3e122",
+    "url": "/lucas-pinheiro/static/js/main.b20b8ef0.chunk.js"
   },
   {
     "revision": "92e82604792dc766d84e",
@@ -76,12 +76,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lucas-pinheiro/static/media/minimal.5b10b8d3.otf"
   },
   {
-    "revision": "37d20485463a17b87fb74997e4cc2397",
-    "url": "/lucas-pinheiro/static/media/missionariogaucho.37d20485.png"
+    "revision": "e9a1b9e171a8a6dbb97212a238ca5ebf",
+    "url": "/lucas-pinheiro/static/media/missionariogaucho-mobile.e9a1b9e1.png"
   },
   {
-    "revision": "c25cbd80d829b2d02c2a090f33e436b7",
-    "url": "/lucas-pinheiro/static/media/missionariogaucho.c25cbd80.jpg"
+    "revision": "37d20485463a17b87fb74997e4cc2397",
+    "url": "/lucas-pinheiro/static/media/missionariogaucho.37d20485.png"
   },
   {
     "revision": "3dee0e30fc07251a2b99d6106464dd39",
