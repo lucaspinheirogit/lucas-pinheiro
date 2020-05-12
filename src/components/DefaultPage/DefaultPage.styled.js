@@ -3,7 +3,6 @@ import styled from 'styled-components'
 import { responsive } from 'utils'
 
 export const Container = styled.section`
-  min-height: 75vh;
   display: flex;
   justify-content: center;
   color: white;

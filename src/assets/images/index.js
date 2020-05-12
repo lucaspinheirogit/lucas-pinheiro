@@ -5,3 +5,6 @@ export { default as NodeJS } from './nodejs.png'
 export { default as ReactJS } from './react.png'
 export { default as Artigo1 } from './artigo1.jpg'
 export { default as Artigo2 } from './artigo2.jpg'
+
+export { default as MissionarioGaucho } from './missionariogaucho.png'
+export { default as MissionarioGauchoMobile } from './missionariogaucho-mobile.png'

@@ -8,12 +8,13 @@ export const ArticlesContainer = styled.div`
   grid-template-columns: repeat(auto-fit, 300px);
   grid-template-rows: repeat(auto-fit, 200px);
   grid-gap: 1em;
-  padding: 1em 0;
+  padding: 2em 0;
   margin: auto 0;
 
   @media ${responsive.md} {
     grid-template-columns: repeat(auto-fit, 350px);
     grid-template-rows: repeat(auto-fit, 250px);
+    padding: 5em 0;
   }
 `
 
@@ -58,6 +59,7 @@ export const ArticleTitle = styled.h2`
   color: white;
   font-size: 14px;
   margin-bottom: 0.5em;
+  width: 80%;
 
   @media ${responsive.md} {
     font-size: 16px;

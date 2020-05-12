@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled, { keyframes } from 'styled-components'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import { responsive } from 'utils'
@@ -16,10 +16,8 @@ export const Container = styled.section`
 export const Title = styled.h1`
   color: white;
   font-size: 32px;
-  border: 1px solid white;
   padding: 0.25em 1em;
   text-shadow: 0 2px 5px black;
-  backdrop-filter: blur(5px);
 
   @media ${responsive.md} {
     font-size: 80px;
@@ -48,6 +46,15 @@ export const ArrowIconContainer = styled.a`
   cursor: pointer;
 `
 
+const upAndDown = keyframes`
+ from {
+    transform: translateY(0%);
+  }
+  to {
+    transform: translateY(-50%);
+  }
+`
+
 export const ArrowIcon = styled(FontAwesomeIcon)`
   font-size: 24px;
   position: absolute;
@@ -55,4 +62,5 @@ export const ArrowIcon = styled(FontAwesomeIcon)`
   left: 50%;
   color: white;
   transform: translateX(-50%);
+  animation: ${upAndDown} 1s alternate-reverse infinite;
 `

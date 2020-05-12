@@ -1,14 +1,32 @@
 import styled from 'styled-components'
 
-import { Wallpaper } from 'assets/images'
+import { Wallpaper, WallpaperMobile } from 'assets/images'
+import { responsive } from 'utils'
 
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-  background-image: url(${Wallpaper});
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+  overflow: hidden;
+  position: relative;
+
+  &::before {
+    content: ' ';
+    position: fixed;
+    width: 100vw;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: url(${WallpaperMobile}) no-repeat center center;
+    background-size: cover;
+    will-change: transform;
+    z-index: -1;
+  }
+
+  @media ${responsive.md} {
+    &::before {
+      background: url(${Wallpaper}) no-repeat center center;
+      background-size: cover;
+    }
+  }
 `

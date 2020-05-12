@@ -9,4 +9,7 @@ export const Container = styled.div`
   @media ${responsive.md} {
     height: 50vh;
   }
+  @media ${responsive.xl} {
+    height: 500px;
+  }
 `

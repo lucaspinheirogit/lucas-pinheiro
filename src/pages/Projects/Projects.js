@@ -1,15 +1,17 @@
 import React from 'react'
 import Zoom from 'react-reveal/Zoom'
 
-import { PrimaryButton } from 'components/Buttons'
 import DefaultPage from 'components/DefaultPage'
+import { useWindowDimensions } from 'hooks'
 
 import {
   StyledSlider,
   SliderImageContainer,
   SliderImage,
   SliderImageDescription,
-  SliderImageDescriptionText
+  SliderImageDescriptionText,
+  ButtonsContainer,
+  StyledLinkButton
 } from './Projects.styled'
 import { PROJECTS } from './constants'
 
@@ -21,23 +23,43 @@ const defaultSliderSettings = {
   touchThreshold: 10
 }
 
-const Projects = () => (
-  <DefaultPage id="PROJECTS" title="Projetos">
-    <Zoom>
-      <StyledSlider {...defaultSliderSettings}>
-        {PROJECTS.map(({ id, img, mobileImg, text }) => (
-          <SliderImageContainer key={id}>
-            <SliderImage src={img} />
-            <SliderImage mobile src={mobileImg} />
-            <SliderImageDescription>
-              <SliderImageDescriptionText>{text}</SliderImageDescriptionText>
-              <PrimaryButton size="small" label="Ver mais" />
-            </SliderImageDescription>
-          </SliderImageContainer>
-        ))}
-      </StyledSlider>
-    </Zoom>
-  </DefaultPage>
-)
+const Projects = () => {
+  const { width } = useWindowDimensions()
+
+  const isMobile = width < 768
+
+  return (
+    <DefaultPage id="PROJECTS" title="Projetos">
+      <Zoom>
+        <StyledSlider {...defaultSliderSettings}>
+          {PROJECTS.map(({ id, img, mobileImg, description, codeUrl, appUrl }) => (
+            <SliderImageContainer key={id}>
+              <SliderImage src={isMobile ? mobileImg : img} />
+              <SliderImageDescription>
+                <SliderImageDescriptionText>{description}</SliderImageDescriptionText>
+                <ButtonsContainer>
+                  {codeUrl && (
+                    <StyledLinkButton
+                      href={codeUrl}
+                      target="_blank"
+                      size="small"
+                      label="Ver código"
+                    />
+                  )}
+                  <StyledLinkButton
+                    href={appUrl}
+                    target="_blank"
+                    size="small"
+                    label="Ver projeto"
+                  />
+                </ButtonsContainer>
+              </SliderImageDescription>
+            </SliderImageContainer>
+          ))}
+        </StyledSlider>
+      </Zoom>
+    </DefaultPage>
+  )
+}
 
 export default Projects
