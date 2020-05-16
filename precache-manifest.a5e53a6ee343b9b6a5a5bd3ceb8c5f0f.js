@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "93ccc014ca85ae82073527c3420b3ad0",
+    "revision": "f640326fefac1e0d5a1ebc297eb8e3d0",
     "url": "/lucas-pinheiro/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lucas-pinheiro/static/css/2.7f236974.chunk.css"
   },
   {
-    "revision": "254c601a72d794720690",
+    "revision": "c16249b5bc7f5ba33c93",
     "url": "/lucas-pinheiro/static/css/main.e67497e9.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lucas-pinheiro/static/js/2.41a609ac.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "254c601a72d794720690",
-    "url": "/lucas-pinheiro/static/js/main.4a57cb25.chunk.js"
+    "revision": "c16249b5bc7f5ba33c93",
+    "url": "/lucas-pinheiro/static/js/main.56f5c2b3.chunk.js"
   },
   {
     "revision": "92e82604792dc766d84e",
