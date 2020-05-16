@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "511e37cdbfcbc09387601bf43222b5e2",
+    "revision": "831935f5afb169ce9109d16b226673dd",
     "url": "/lucas-pinheiro/index.html"
   },
   {
-    "revision": "357a08d26a1c959e1941",
-    "url": "/lucas-pinheiro/static/css/2.2b4f0854.chunk.css"
+    "revision": "c5cadfdee30892dc1a6a",
+    "url": "/lucas-pinheiro/static/css/2.7f236974.chunk.css"
   },
   {
-    "revision": "42ae5fe13b3ed6b3e122",
+    "revision": "8cfb603e24a90d920896",
     "url": "/lucas-pinheiro/static/css/main.e67497e9.chunk.css"
   },
   {
-    "revision": "357a08d26a1c959e1941",
-    "url": "/lucas-pinheiro/static/js/2.20b4d0d9.chunk.js"
+    "revision": "c5cadfdee30892dc1a6a",
+    "url": "/lucas-pinheiro/static/js/2.41a609ac.chunk.js"
   },
   {
     "revision": "117d65892edc8adcd29d4a0d57b5a80a",
-    "url": "/lucas-pinheiro/static/js/2.20b4d0d9.chunk.js.LICENSE.txt"
+    "url": "/lucas-pinheiro/static/js/2.41a609ac.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "42ae5fe13b3ed6b3e122",
-    "url": "/lucas-pinheiro/static/js/main.b20b8ef0.chunk.js"
+    "revision": "8cfb603e24a90d920896",
+    "url": "/lucas-pinheiro/static/js/main.226bcb0a.chunk.js"
   },
   {
     "revision": "92e82604792dc766d84e",
@@ -106,6 +106,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f97e3bbf73254b0112091d0192f17aec",
     "url": "/lucas-pinheiro/static/media/slick.f97e3bbf.svg"
+  },
+  {
+    "revision": "36e868a4a2606c8a55fc4d66e0d5f738",
+    "url": "/lucas-pinheiro/static/media/snake-game-mobile.36e868a4.png"
+  },
+  {
+    "revision": "9fb1f7b93afa2cd4ef5ac903e11903ad",
+    "url": "/lucas-pinheiro/static/media/snake-game.9fb1f7b9.png"
   },
   {
     "revision": "b1c9b29820ce63ac9e2035b5923ee3c7",
