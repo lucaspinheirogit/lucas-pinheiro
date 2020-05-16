@@ -19,10 +19,10 @@ const Articles = () => (
       <ArticlesContainer>
         {ARTICLES.map(({ id, text, imgSrc, url }) => (
           <Article key={id}>
-            <ArticleImage src={imgSrc} />
+            <ArticleImage alt={text} src={imgSrc} />
             <ArticleOverlay>
               <ArticleTitle>{text}</ArticleTitle>
-              <ArticleButton target="_blank" href={url}>
+              <ArticleButton target="_blank" href={url} rel="noopener noreferrer">
                 Ver mais
               </ArticleButton>
             </ArticleOverlay>

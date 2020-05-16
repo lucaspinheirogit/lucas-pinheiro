@@ -34,7 +34,7 @@ const Projects = () => {
         <StyledSlider {...defaultSliderSettings}>
           {PROJECTS.map(({ id, img, mobileImg, description, codeUrl, appUrl }) => (
             <SliderImageContainer key={id}>
-              <SliderImage src={isMobile ? mobileImg : img} />
+              <SliderImage alt={description} src={isMobile ? mobileImg : img} />
               <SliderImageDescription>
                 <SliderImageDescriptionText>{description}</SliderImageDescriptionText>
                 <ButtonsContainer>
@@ -44,6 +44,7 @@ const Projects = () => {
                       target="_blank"
                       size="small"
                       label="Ver código"
+                      rel="noopener noreferrer"
                     />
                   )}
                   <StyledLinkButton
@@ -51,6 +52,7 @@ const Projects = () => {
                     target="_blank"
                     size="small"
                     label="Ver projeto"
+                    rel="noopener noreferrer"
                   />
                 </ButtonsContainer>
               </SliderImageDescription>

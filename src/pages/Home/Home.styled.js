@@ -48,10 +48,10 @@ export const ArrowIconContainer = styled.a`
 
 const upAndDown = keyframes`
  from {
-    transform: translateY(0%);
+    transform: translate(-50%, 0%);
   }
   to {
-    transform: translateY(-50%);
+    transform: translate(-50%, -50%);
   }
 `
 
@@ -61,6 +61,5 @@ export const ArrowIcon = styled(FontAwesomeIcon)`
   bottom: 5%;
   left: 50%;
   color: white;
-  transform: translateX(-50%);
   animation: ${upAndDown} 1s alternate-reverse infinite;
 `

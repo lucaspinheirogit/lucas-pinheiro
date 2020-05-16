@@ -8,3 +8,5 @@ export { default as Artigo2 } from './artigo2.jpg'
 
 export { default as MissionarioGaucho } from './missionariogaucho.png'
 export { default as MissionarioGauchoMobile } from './missionariogaucho-mobile.png'
+export { default as SnakeGame } from './snake-game.png'
+export { default as SnakeGameMobile } from './snake-game-mobile.png'

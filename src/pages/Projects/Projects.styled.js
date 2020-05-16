@@ -2,6 +2,7 @@ import Slider from 'react-slick'
 import styled from 'styled-components'
 
 import { PrimaryLinkButton } from 'components/Buttons'
+import { responsive } from 'utils'
 
 export const StyledSlider = styled(Slider)`
   padding: 1em 0;
@@ -20,6 +21,7 @@ export const SliderImageContainer = styled.div`
   display: flex !important;
   flex-direction: column;
   outline: 0;
+  padding: 0 0.5em;
 `
 
 export const SliderImage = styled.img`
@@ -29,9 +31,13 @@ export const SliderImage = styled.img`
 
 export const SliderImageDescription = styled.div`
   width: 100%;
-  background-image: linear-gradient(to right, #000f30, #0d265c 30%, #0d265c 60%, #000f30 100%);
+  background-image: linear-gradient(to right, #000f30, #0d265c 20%, #0d265c 80%, #000f30 100%);
   text-align: center;
   padding: 1em;
+
+  @media ${responsive.md} {
+    background-image: linear-gradient(to right, #000f30, #0d265c 30%, #0d265c 60%, #000f30 100%);
+  }
 `
 
 export const SliderImageDescriptionText = styled.p`

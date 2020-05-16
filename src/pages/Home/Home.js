@@ -24,7 +24,7 @@ const Home = () => (
           <ReactTooltip id={id} place="bottom" type="light" effect="solid">
             {placeholder}
           </ReactTooltip>
-          <MediaIcon data-tip data-for={id} src={icon} url={url} />
+          <MediaIcon data-tip data-for={id} src={icon} url={url} alt={placeholder} />
         </div>
       ))}
     </MediaContainer>

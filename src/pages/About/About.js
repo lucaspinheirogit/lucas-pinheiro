@@ -12,7 +12,7 @@ const About = () => (
       <Content key={id}>
         <ContentImageContainer>
           <Zoom>
-            <ContentImage src={img} />
+            <ContentImage alt={text} src={img} />
           </Zoom>
         </ContentImageContainer>
         <ContentText>
