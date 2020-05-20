@@ -4,7 +4,9 @@ import {
   SnakeGame,
   SnakeGameMobile,
   ImageSearch,
-  ImageSearchMobile
+  ImageSearchMobile,
+  PratoPratico,
+  PratoPraticoMobile
 } from 'assets/images'
 
 export const PROJECTS = [
@@ -42,6 +44,38 @@ export const PROJECTS = [
   },
   {
     id: 2,
+    img: PratoPratico,
+    mobileImg: PratoPraticoMobile,
+    title: 'Prato Prático!',
+    description:
+      'Meu Trabalho de Conclusão de Curso (TCC), envolvendo todas as seguintes áreas e tecnologias:',
+    techs: [
+      {
+        description: 'Mobile multiplataforma (Android / IOS)',
+        stack: [
+          'React Native',
+          'Redux',
+          'React-Navigation',
+          'Image Picker',
+          'Styled-Components',
+          'Formik',
+          'Yup'
+        ]
+      },
+      {
+        description: 'Back-End com upload de imagens para o Firebase',
+        stack: ['Node', 'Express', 'Knex', 'JWT', 'Firebase', 'Multer']
+      },
+      {
+        description: 'Banco de dados',
+        stack: ['MySQL', 'Firestore']
+      }
+    ],
+    codeUrl: 'https://github.com/lucaspinheirogit/PratoPratico',
+    appUrl: null
+  },
+  {
+    id: 3,
     img: SnakeGame,
     mobileImg: SnakeGameMobile,
     title: 'Jogo da Cobrinha!',
@@ -65,7 +99,7 @@ export const PROJECTS = [
     appUrl: 'https://snake-game-lucas-pinheiro.now.sh'
   },
   {
-    id: 3,
+    id: 4,
     img: ImageSearch,
     mobileImg: ImageSearchMobile,
     title: 'Pesquisador de imagens!',

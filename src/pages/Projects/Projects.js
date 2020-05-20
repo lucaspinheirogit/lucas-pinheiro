@@ -61,13 +61,15 @@ const Projects = () => {
                       rel="noopener noreferrer"
                     />
                   )}
-                  <StyledLinkButton
-                    href={appUrl}
-                    target="_blank"
-                    size="small"
-                    label="Ver Projeto"
-                    rel="noopener noreferrer"
-                  />
+                  {appUrl && (
+                    <StyledLinkButton
+                      href={appUrl}
+                      target="_blank"
+                      size="small"
+                      label="Ver Projeto"
+                      rel="noopener noreferrer"
+                    />
+                  )}
                 </ButtonsContainer>
               </SliderImageDescription>
             </SliderImageContainer>
