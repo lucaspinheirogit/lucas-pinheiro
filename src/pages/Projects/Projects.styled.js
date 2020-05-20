@@ -22,6 +22,7 @@ export const SliderImageContainer = styled.div`
   flex-direction: column;
   outline: 0;
   padding: 0 0.5em;
+  padding-top: 0.5em;
 `
 
 export const SliderImage = styled.img`

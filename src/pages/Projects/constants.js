@@ -2,7 +2,9 @@ import {
   MissionarioGaucho,
   MissionarioGauchoMobile,
   SnakeGame,
-  SnakeGameMobile
+  SnakeGameMobile,
+  ImageSearch,
+  ImageSearchMobile
 } from 'assets/images'
 
 export const PROJECTS = [
@@ -61,5 +63,29 @@ export const PROJECTS = [
     ],
     codeUrl: 'https://github.com/lucaspinheirogit/snake-game',
     appUrl: 'https://snake-game-lucas-pinheiro.now.sh'
+  },
+  {
+    id: 3,
+    img: ImageSearch,
+    mobileImg: ImageSearchMobile,
+    title: 'Pesquisador de imagens!',
+    description:
+      'Pesquisa de imagens atráves de consultas em um banco de fotos externo, desenvolvido com as seguintes tecnologias:',
+    techs: [
+      {
+        description: 'Banco de imagens externo',
+        stack: ['Shutterstock']
+      },
+      {
+        description: 'Front-End',
+        stack: ['HTML', 'CSS', 'JavaScript']
+      },
+      {
+        description: 'Infraestrutura',
+        stack: ['Zeit NOW']
+      }
+    ],
+    codeUrl: 'https://github.com/lucaspinheirogit/ImageSearchApp',
+    appUrl: 'https://image-search-lucas-pinheiro.now.sh/'
   }
 ]
