@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b64fcde8e5a0936fed35858beb001949",
+    "revision": "a2b83036953f17ec34c8d86cfb1395f0",
     "url": "/lucas-pinheiro/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lucas-pinheiro/static/css/2.7f236974.chunk.css"
   },
   {
-    "revision": "97c77120fa3ebf9c2c03",
+    "revision": "30965326bed7fe7d7dc0",
     "url": "/lucas-pinheiro/static/css/main.e67497e9.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lucas-pinheiro/static/js/2.41a609ac.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "97c77120fa3ebf9c2c03",
-    "url": "/lucas-pinheiro/static/js/main.e1e3b371.chunk.js"
+    "revision": "30965326bed7fe7d7dc0",
+    "url": "/lucas-pinheiro/static/js/main.6c3f94ab.chunk.js"
   },
   {
     "revision": "92e82604792dc766d84e",
@@ -112,8 +112,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lucas-pinheiro/static/media/snake-game-mobile.36e868a4.png"
   },
   {
-    "revision": "9fb1f7b93afa2cd4ef5ac903e11903ad",
-    "url": "/lucas-pinheiro/static/media/snake-game.9fb1f7b9.png"
+    "revision": "acfb8f7b065a71cd418eae9263e7cdfc",
+    "url": "/lucas-pinheiro/static/media/snake-game.acfb8f7b.png"
   },
   {
     "revision": "b1c9b29820ce63ac9e2035b5923ee3c7",

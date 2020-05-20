@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/lucas-pinheiro/static/css/main.e67497e9.chunk.css",
-    "main.js": "/lucas-pinheiro/static/js/main.e1e3b371.chunk.js",
-    "main.js.map": "/lucas-pinheiro/static/js/main.e1e3b371.chunk.js.map",
+    "main.js": "/lucas-pinheiro/static/js/main.6c3f94ab.chunk.js",
+    "main.js.map": "/lucas-pinheiro/static/js/main.6c3f94ab.chunk.js.map",
     "runtime-main.js": "/lucas-pinheiro/static/js/runtime-main.70e4e58a.js",
     "runtime-main.js.map": "/lucas-pinheiro/static/js/runtime-main.70e4e58a.js.map",
     "static/css/2.7f236974.chunk.css": "/lucas-pinheiro/static/css/2.7f236974.chunk.css",
     "static/js/2.41a609ac.chunk.js": "/lucas-pinheiro/static/js/2.41a609ac.chunk.js",
     "static/js/2.41a609ac.chunk.js.map": "/lucas-pinheiro/static/js/2.41a609ac.chunk.js.map",
     "index.html": "/lucas-pinheiro/index.html",
-    "precache-manifest.40df7d29958492630563015342666018.js": "/lucas-pinheiro/precache-manifest.40df7d29958492630563015342666018.js",
+    "precache-manifest.f9b6e2c045dfa44b558487a1f59347c9.js": "/lucas-pinheiro/precache-manifest.f9b6e2c045dfa44b558487a1f59347c9.js",
     "service-worker.js": "/lucas-pinheiro/service-worker.js",
     "static/css/2.7f236974.chunk.css.map": "/lucas-pinheiro/static/css/2.7f236974.chunk.css.map",
     "static/css/main.e67497e9.chunk.css.map": "/lucas-pinheiro/static/css/main.e67497e9.chunk.css.map",
@@ -32,7 +32,7 @@
     "static/media/react.png": "/lucas-pinheiro/static/media/react.6f3658ee.png",
     "static/media/slick-theme.css": "/lucas-pinheiro/static/media/slick.f97e3bbf.svg",
     "static/media/snake-game-mobile.png": "/lucas-pinheiro/static/media/snake-game-mobile.36e868a4.png",
-    "static/media/snake-game.png": "/lucas-pinheiro/static/media/snake-game.9fb1f7b9.png",
+    "static/media/snake-game.png": "/lucas-pinheiro/static/media/snake-game.acfb8f7b.png",
     "static/media/wallpaper-mobile.jpg": "/lucas-pinheiro/static/media/wallpaper-mobile.b1c9b298.jpg",
     "static/media/wallpaper.jpg": "/lucas-pinheiro/static/media/wallpaper.bfce83cd.jpg"
   },
@@ -41,6 +41,6 @@
     "static/css/2.7f236974.chunk.css",
     "static/js/2.41a609ac.chunk.js",
     "static/css/main.e67497e9.chunk.css",
-    "static/js/main.e1e3b371.chunk.js"
+    "static/js/main.6c3f94ab.chunk.js"
   ]
 }
