@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "251195f3071647ae6efbe27eaa95b7e3",
+    "revision": "780a9da13903cf8978fa498dc34c9ce0",
     "url": "/lucas-pinheiro/index.html"
   },
   {
-    "revision": "00f835e6273789473736",
+    "revision": "7deaf1a65a50f80b80dc",
     "url": "/lucas-pinheiro/static/css/2.7f236974.chunk.css"
   },
   {
-    "revision": "3ad2f4a10b890bfe61b1",
+    "revision": "9e99c17e15b976ff5246",
     "url": "/lucas-pinheiro/static/css/main.e67497e9.chunk.css"
   },
   {
-    "revision": "00f835e6273789473736",
-    "url": "/lucas-pinheiro/static/js/2.129ae71c.chunk.js"
+    "revision": "7deaf1a65a50f80b80dc",
+    "url": "/lucas-pinheiro/static/js/2.4bf0225b.chunk.js"
   },
   {
     "revision": "117d65892edc8adcd29d4a0d57b5a80a",
-    "url": "/lucas-pinheiro/static/js/2.129ae71c.chunk.js.LICENSE.txt"
+    "url": "/lucas-pinheiro/static/js/2.4bf0225b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3ad2f4a10b890bfe61b1",
-    "url": "/lucas-pinheiro/static/js/main.0856c23c.chunk.js"
+    "revision": "9e99c17e15b976ff5246",
+    "url": "/lucas-pinheiro/static/js/main.ecdf3faf.chunk.js"
   },
   {
     "revision": "92e82604792dc766d84e",
@@ -94,6 +94,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3dee0e30fc07251a2b99d6106464dd39",
     "url": "/lucas-pinheiro/static/media/nodejs.3dee0e30.png"
+  },
+  {
+    "revision": "0b2c6a8812f13a62038d8d7b707a0744",
+    "url": "/lucas-pinheiro/static/media/pratopratico-mobile.0b2c6a88.png"
+  },
+  {
+    "revision": "cb62dc7be5f02127e88515eef29b1c23",
+    "url": "/lucas-pinheiro/static/media/pratopratico.cb62dc7b.png"
   },
   {
     "revision": "6f3658eeab43174e7acf40af8b5940cc",
