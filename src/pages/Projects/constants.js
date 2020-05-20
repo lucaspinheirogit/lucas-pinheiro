@@ -10,7 +10,31 @@ export const PROJECTS = [
     id: 1,
     img: MissionarioGaucho,
     mobileImg: MissionarioGauchoMobile,
-    description: 'Projeto de um E-Commerce feito com React, Node, Aws, Heroku, MySql...',
+    title: 'E-Commerce!',
+    description:
+      'Projeto feito para um cliente, envolvendo todas as seguintes áreas e tecnologias:',
+    techs: [
+      {
+        description: 'Front-End responsivo com temas light/dark',
+        stack: ['React', 'Redux', 'Styled-components', 'Formik', 'Yup', 'Axios']
+      },
+      {
+        description: 'Back-End integrado com meio de pagamento',
+        stack: ['Node', 'Express', 'Sequelize', 'Passport', 'JWT', 'AWS-SDK']
+      },
+      {
+        description: 'Banco de dados',
+        stack: ['MySQL', 'AWS RDS']
+      },
+      {
+        description: 'CI / CD',
+        stack: ['GitHub Actions', 'Heroku']
+      },
+      {
+        description: 'Infraestrutura',
+        stack: ['AWS S3', 'CloudFront', 'Route53', 'RDS', 'Heroku']
+      }
+    ],
     codeUrl: null,
     appUrl: 'https://missionariogaucho.com.br/'
   },
@@ -18,7 +42,23 @@ export const PROJECTS = [
     id: 2,
     img: SnakeGame,
     mobileImg: SnakeGameMobile,
-    description: 'O famoso Jogo da Cobrinha feito usando a biblioteca p5.js',
+    title: 'Jogo da Cobrinha!',
+    description:
+      'O famoso Joguinho dos celulares Nokia, desenvolvido com as seguintes tecnologias:',
+    techs: [
+      {
+        description: 'Biblioteca para criação de elementos gráficos',
+        stack: ['P5.js']
+      },
+      {
+        description: 'Front-End',
+        stack: ['HTML', 'CSS', 'JavaScript']
+      },
+      {
+        description: 'Infraestrutura',
+        stack: ['Zeit NOW']
+      }
+    ],
     codeUrl: 'https://github.com/lucaspinheirogit/snake-game',
     appUrl: 'https://snake-game-lucas-pinheiro.now.sh'
   }

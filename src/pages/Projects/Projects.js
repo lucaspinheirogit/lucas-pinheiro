@@ -9,9 +9,14 @@ import {
   SliderImageContainer,
   SliderImage,
   SliderImageDescription,
-  SliderImageDescriptionText,
   ButtonsContainer,
-  StyledLinkButton
+  StyledLinkButton,
+  Title,
+  Description,
+  TechsContainer,
+  Tech,
+  TechDescription,
+  TechStack
 } from './Projects.styled'
 import { PROJECTS } from './constants'
 
@@ -32,18 +37,27 @@ const Projects = () => {
     <DefaultPage id="PROJECTS" title="Projetos">
       <Zoom>
         <StyledSlider {...defaultSliderSettings}>
-          {PROJECTS.map(({ id, img, mobileImg, description, codeUrl, appUrl }) => (
+          {PROJECTS.map(({ id, img, mobileImg, title, description, techs, codeUrl, appUrl }) => (
             <SliderImageContainer key={id}>
               <SliderImage alt={description} src={isMobile ? mobileImg : img} />
               <SliderImageDescription>
-                <SliderImageDescriptionText>{description}</SliderImageDescriptionText>
+                <Title>{title}</Title>
+                <Description>{description}</Description>
+                <TechsContainer>
+                  {techs.map(tech => (
+                    <Tech key={tech.description}>
+                      <TechDescription>{tech.description}</TechDescription>
+                      <TechStack>({tech.stack.join(', ')})</TechStack>
+                    </Tech>
+                  ))}
+                </TechsContainer>
                 <ButtonsContainer>
                   {codeUrl && (
                     <StyledLinkButton
                       href={codeUrl}
                       target="_blank"
                       size="small"
-                      label="Ver código"
+                      label="Ver Código"
                       rel="noopener noreferrer"
                     />
                   )}
@@ -51,7 +65,7 @@ const Projects = () => {
                     href={appUrl}
                     target="_blank"
                     size="small"
-                    label="Ver projeto"
+                    label="Ver Projeto"
                     rel="noopener noreferrer"
                   />
                 </ButtonsContainer>

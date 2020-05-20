@@ -17,6 +17,6 @@ export const CONTENT = [
     id: 3,
     img: Code,
     text:
-      'Enfim, enquanto meu olhar continuar brilhando toda vez que escrevo uma linha de código, pode ter certeza que continuarei nessa jornada.'
+      'Enfim, inspirado pelo mundo da tecnologia a cada vez mais trazer praticidade e simplicidade para as muitas pessoas que impactamos com cada linha de código.'
   }
 ]
