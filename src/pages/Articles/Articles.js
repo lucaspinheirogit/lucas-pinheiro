@@ -2,6 +2,7 @@ import React from 'react'
 import Zoom from 'react-reveal/Zoom'
 
 import DefaultPage from 'components/DefaultPage'
+import { Translator } from 'components/I18n'
 
 import {
   ArticlesContainer,
@@ -14,14 +15,16 @@ import {
 import { ARTICLES } from './constants'
 
 const Articles = () => (
-  <DefaultPage id="ARTICLES" title="Artigos">
+  <DefaultPage id="ARTICLES" title={<Translator path="articlesSection.title" />}>
     <Zoom>
       <ArticlesContainer>
-        {ARTICLES.map(({ id, text, imgSrc, url }) => (
-          <Article key={id}>
-            <ArticleImage alt={text} src={imgSrc} />
+        {ARTICLES.map(({ key, imgSrc, url }) => (
+          <Article key={key}>
+            <ArticleImage alt={key} src={imgSrc} />
             <ArticleOverlay>
-              <ArticleTitle>{text}</ArticleTitle>
+              <ArticleTitle>
+                <Translator path={`articlesSection.${key}`} />
+              </ArticleTitle>
               <ArticleButton target="_blank" href={url} rel="noopener noreferrer">
                 Ver mais
               </ArticleButton>

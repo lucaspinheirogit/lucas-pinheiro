@@ -1,6 +1,7 @@
 import React, { Suspense, lazy } from 'react'
 
 import Layout from 'components/Layout'
+import I18n from 'components/I18n'
 import { Home } from 'pages'
 
 const About = lazy(() => import('./pages/About'))
@@ -17,6 +18,7 @@ const App = () => (
       <Projects />
       <Invisible />
       <Articles />
+      <I18n />
     </Suspense>
   </Layout>
 )

@@ -1,10 +1,14 @@
 import React from 'react'
 
+import { Translator } from 'components/I18n'
+
 import { Container, Text } from './Footer.styled'
 
 const Footer = () => (
   <Container>
-    <Text>Copyright © 2020 - Lucas Pinheiro. Todos os direitos reservados.</Text>
+    <Text>
+      <Translator path="footer" />
+    </Text>
   </Container>
 )
 

@@ -2,6 +2,7 @@ import React from 'react'
 import Zoom from 'react-reveal/Zoom'
 
 import DefaultPage from 'components/DefaultPage'
+import { Translator } from 'components/I18n'
 import { useWindowDimensions } from 'hooks'
 
 import {
@@ -34,7 +35,7 @@ const Projects = () => {
   const isMobile = width < 768
 
   return (
-    <DefaultPage id="PROJECTS" title="Projetos">
+    <DefaultPage id="PROJECTS" title={<Translator path="projectsSection.title" />}>
       <Zoom>
         <StyledSlider {...defaultSliderSettings}>
           {PROJECTS.map(({ id, img, mobileImg, title, description, techs, codeUrl, appUrl }) => (
