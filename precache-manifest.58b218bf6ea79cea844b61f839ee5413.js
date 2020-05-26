@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "780a9da13903cf8978fa498dc34c9ce0",
+    "revision": "c6c2d978c0c6f13bde62bc8b59351661",
     "url": "/lucas-pinheiro/index.html"
   },
   {
-    "revision": "7deaf1a65a50f80b80dc",
+    "revision": "f3586b44a1888f58f8bf",
     "url": "/lucas-pinheiro/static/css/2.7f236974.chunk.css"
   },
   {
-    "revision": "9e99c17e15b976ff5246",
+    "revision": "91525c1082fb200a907e",
     "url": "/lucas-pinheiro/static/css/main.e67497e9.chunk.css"
   },
   {
-    "revision": "7deaf1a65a50f80b80dc",
-    "url": "/lucas-pinheiro/static/js/2.4bf0225b.chunk.js"
+    "revision": "f3586b44a1888f58f8bf",
+    "url": "/lucas-pinheiro/static/js/2.afb5b69d.chunk.js"
   },
   {
     "revision": "117d65892edc8adcd29d4a0d57b5a80a",
-    "url": "/lucas-pinheiro/static/js/2.4bf0225b.chunk.js.LICENSE.txt"
+    "url": "/lucas-pinheiro/static/js/2.afb5b69d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9e99c17e15b976ff5246",
-    "url": "/lucas-pinheiro/static/js/main.ecdf3faf.chunk.js"
+    "revision": "91525c1082fb200a907e",
+    "url": "/lucas-pinheiro/static/js/main.0b8b0414.chunk.js"
   },
   {
     "revision": "92e82604792dc766d84e",
@@ -40,6 +40,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lucas-pinheiro/static/media/artigo2.d884f287.jpg"
   },
   {
+    "revision": "a102e5631626f71ddbc427003063dc0a",
+    "url": "/lucas-pinheiro/static/media/brasil-flag.a102e563.svg"
+  },
+  {
     "revision": "ca7c5afde7aa162e8f67590f3e8b9d92",
     "url": "/lucas-pinheiro/static/media/code.ca7c5afd.svg"
   },
@@ -54,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3a61fa6434fb2c43ddf735cf8e0c7dc6",
     "url": "/lucas-pinheiro/static/media/email.3a61fa64.svg"
+  },
+  {
+    "revision": "38f88714d1f6b481d01651439dfed026",
+    "url": "/lucas-pinheiro/static/media/eua-flag.38f88714.svg"
   },
   {
     "revision": "2a0b2c2fa3efab4b4ac32c39a491850d",
