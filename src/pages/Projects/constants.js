@@ -11,31 +11,28 @@ import {
 
 export const PROJECTS = [
   {
-    id: 1,
+    key: 'missionarioGaucho',
     img: MissionarioGaucho,
     mobileImg: MissionarioGauchoMobile,
-    title: 'E-Commerce!',
-    description:
-      'Projeto feito para um cliente, envolvendo todas as seguintes áreas e tecnologias:',
     techs: [
       {
-        description: 'Front-End responsivo com temas light/dark',
+        key: 'frontend',
         stack: ['React', 'Redux', 'Styled-components', 'Formik', 'Yup', 'Axios']
       },
       {
-        description: 'Back-End integrado com meio de pagamento',
+        key: 'backend',
         stack: ['Node', 'Express', 'Sequelize', 'Passport', 'JWT', 'AWS-SDK']
       },
       {
-        description: 'Banco de dados',
+        key: 'database',
         stack: ['MySQL', 'AWS RDS']
       },
       {
-        description: 'CI / CD',
+        key: 'cicd',
         stack: ['GitHub Actions', 'Heroku']
       },
       {
-        description: 'Infraestrutura',
+        key: 'infra',
         stack: ['AWS S3', 'CloudFront', 'Route53', 'RDS', 'Heroku']
       }
     ],
@@ -43,15 +40,12 @@ export const PROJECTS = [
     appUrl: 'https://missionariogaucho.com.br/'
   },
   {
-    id: 2,
+    key: 'pratoPratico',
     img: PratoPratico,
     mobileImg: PratoPraticoMobile,
-    title: 'Prato Prático!',
-    description:
-      'Meu Trabalho de Conclusão de Curso (TCC), envolvendo todas as seguintes áreas e tecnologias:',
     techs: [
       {
-        description: 'Mobile multiplataforma (Android / IOS)',
+        key: 'mobile',
         stack: [
           'React Native',
           'Redux',
@@ -63,11 +57,11 @@ export const PROJECTS = [
         ]
       },
       {
-        description: 'Back-End com upload de imagens para o Firebase',
+        key: 'backend',
         stack: ['Node', 'Express', 'Knex', 'JWT', 'Firebase', 'Multer']
       },
       {
-        description: 'Banco de dados',
+        key: 'database',
         stack: ['MySQL', 'Firestore']
       }
     ],
@@ -75,23 +69,20 @@ export const PROJECTS = [
     appUrl: null
   },
   {
-    id: 3,
+    key: 'snakeGame',
     img: SnakeGame,
     mobileImg: SnakeGameMobile,
-    title: 'Jogo da Cobrinha!',
-    description:
-      'O famoso Joguinho dos celulares Nokia, desenvolvido com as seguintes tecnologias:',
     techs: [
       {
-        description: 'Biblioteca para criação de elementos gráficos',
+        key: 'lib',
         stack: ['P5.js']
       },
       {
-        description: 'Front-End',
+        key: 'frontend',
         stack: ['HTML', 'CSS', 'JavaScript']
       },
       {
-        description: 'Infraestrutura',
+        key: 'infra',
         stack: ['Zeit NOW']
       }
     ],
@@ -99,23 +90,20 @@ export const PROJECTS = [
     appUrl: 'https://snake-game-lucas-pinheiro.now.sh'
   },
   {
-    id: 4,
+    key: 'imageSearch',
     img: ImageSearch,
     mobileImg: ImageSearchMobile,
-    title: 'Pesquisador de imagens!',
-    description:
-      'Pesquisa de imagens atráves de consultas em um banco de fotos externo, desenvolvido com as seguintes tecnologias:',
     techs: [
       {
-        description: 'Banco de imagens externo',
+        key: 'database',
         stack: ['Shutterstock']
       },
       {
-        description: 'Front-End',
+        key: 'frontend',
         stack: ['HTML', 'CSS', 'JavaScript']
       },
       {
-        description: 'Infraestrutura',
+        key: 'infra',
         stack: ['Zeit NOW']
       }
     ],

@@ -38,43 +38,56 @@ const Projects = () => {
     <DefaultPage id="PROJECTS" title={<Translator path="projectsSection.title" />}>
       <Zoom>
         <StyledSlider {...defaultSliderSettings}>
-          {PROJECTS.map(({ id, img, mobileImg, title, description, techs, codeUrl, appUrl }) => (
-            <SliderImageContainer key={id}>
-              <SliderImage alt={description} src={isMobile ? mobileImg : img} />
-              <SliderImageDescription>
-                <Title>{title}</Title>
-                <Description>{description}</Description>
-                <TechsContainer>
-                  {techs.map(tech => (
-                    <Tech key={tech.description}>
-                      <TechDescription>{tech.description}</TechDescription>
-                      <TechStack>({tech.stack.join(', ')})</TechStack>
-                    </Tech>
-                  ))}
-                </TechsContainer>
-                <ButtonsContainer>
-                  {codeUrl && (
-                    <StyledLinkButton
-                      href={codeUrl}
-                      target="_blank"
-                      size="small"
-                      label="Ver Código"
-                      rel="noopener noreferrer"
-                    />
-                  )}
-                  {appUrl && (
-                    <StyledLinkButton
-                      href={appUrl}
-                      target="_blank"
-                      size="small"
-                      label="Ver Projeto"
-                      rel="noopener noreferrer"
-                    />
-                  )}
-                </ButtonsContainer>
-              </SliderImageDescription>
-            </SliderImageContainer>
-          ))}
+          {PROJECTS.map(({ key, img, mobileImg, techs, codeUrl, appUrl }) => {
+            const basePath = `projectsSection.${key}`
+            const techsPath = `${basePath}.techs`
+
+            const title = <Translator path={`${basePath}.title`} />
+            const description = <Translator path={`${basePath}.description`} />
+
+            return (
+              <SliderImageContainer key={key}>
+                <SliderImage alt={description} src={isMobile ? mobileImg : img} />
+                <SliderImageDescription>
+                  <Title>{title}</Title>
+                  <Description>{description}</Description>
+                  <TechsContainer>
+                    {techs.map(({ key, stack }) => {
+                      const techDescription = <Translator path={`${techsPath}.${key}`} />
+                      const techStack = stack.join(', ')
+
+                      return (
+                        <Tech key={`${key}-{techDescription}`}>
+                          <TechDescription>{techDescription}</TechDescription>
+                          <TechStack>({techStack})</TechStack>
+                        </Tech>
+                      )
+                    })}
+                  </TechsContainer>
+                  <ButtonsContainer>
+                    {codeUrl && (
+                      <StyledLinkButton
+                        href={codeUrl}
+                        target="_blank"
+                        size="small"
+                        label="Ver Código"
+                        rel="noopener noreferrer"
+                      />
+                    )}
+                    {appUrl && (
+                      <StyledLinkButton
+                        href={appUrl}
+                        target="_blank"
+                        size="small"
+                        label="Ver Projeto"
+                        rel="noopener noreferrer"
+                      />
+                    )}
+                  </ButtonsContainer>
+                </SliderImageDescription>
+              </SliderImageContainer>
+            )
+          })}
         </StyledSlider>
       </Zoom>
     </DefaultPage>

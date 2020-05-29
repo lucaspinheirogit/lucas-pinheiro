@@ -15,7 +15,49 @@ export default {
         'Enfim, inspirado pelo mundo da tecnologia a cada vez mais trazer praticidade e simplicidade para as muitas pessoas que impactamos com cada linha de código.'
     },
     projectsSection: {
-      title: 'Projetos'
+      title: 'Projetos',
+      missionarioGaucho: {
+        title: 'E-Commerce',
+        description:
+          'Projeto feito para um cliente, envolvendo todas as seguintes áreas e tecnologias:',
+        techs: {
+          frontend: 'Front-End responsivo com temas light/dark',
+          backend: 'Back-End integrado com meio de pagamento',
+          database: 'Banco de dados',
+          cicd: 'CI / CD',
+          infra: 'Infraestrutura'
+        }
+      },
+      pratoPratico: {
+        title: 'Prato Prático!',
+        description:
+          'Meu Trabalho de Conclusão de Curso (TCC) sobre facilitar a vida de quem cozinha todo dia, envolvendo todas as seguintes áreas e tecnologias:',
+        techs: {
+          mobile: 'Mobile multiplataforma (Android / IOS)',
+          backend: 'Back-End com upload de imagens para o Firebase',
+          database: 'Banco de dados'
+        }
+      },
+      snakeGame: {
+        title: 'Jogo da Cobrinha!',
+        description:
+          'O famoso Joguinho dos celulares Nokia, desenvolvido com as seguintes tecnologias:',
+        techs: {
+          lib: 'Biblioteca para criação de elementos gráficos',
+          frontend: 'Front-End',
+          infra: 'Infraestrutura'
+        }
+      },
+      imageSearch: {
+        title: 'Pesquisador de imagens!',
+        description:
+          'Pesquisa de imagens atráves de consultas em um banco de fotos externo, desenvolvido com as seguintes tecnologias:',
+        techs: {
+          database: 'Banco de imagens externo',
+          frontend: 'Front-End',
+          infra: 'Infraestrutura'
+        }
+      }
     },
     articlesSection: {
       title: 'Artigos',
