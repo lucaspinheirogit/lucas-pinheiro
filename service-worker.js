@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/lucas-pinheiro/precache-manifest.ec8d85dd81982ca9d5b9216d0c59418c.js"
+  "/lucas-pinheiro/precache-manifest.91da2164541a9ff83cbb06ccb339d814.js"
 );
 
 self.addEventListener('message', (event) => {
