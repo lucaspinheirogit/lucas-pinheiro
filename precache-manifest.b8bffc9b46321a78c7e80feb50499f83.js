@@ -1,75 +1,79 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "05a0a47518eb667ea752c9586b808d75",
+    "revision": "2b77c4f760e73bc4fafccf7d2b472496",
     "url": "/lucas-pinheiro/index.html"
   },
   {
-    "revision": "ae4543b39ec891a88ea8",
+    "revision": "25b8917816d690c07f39",
     "url": "/lucas-pinheiro/static/css/2.7f236974.chunk.css"
   },
   {
-    "revision": "7f7b1b68e5c2446cd408",
+    "revision": "93ab79016189642a1123",
     "url": "/lucas-pinheiro/static/css/main.e67497e9.chunk.css"
   },
   {
-    "revision": "ae4543b39ec891a88ea8",
-    "url": "/lucas-pinheiro/static/js/2.adfaa579.chunk.js"
+    "revision": "25b8917816d690c07f39",
+    "url": "/lucas-pinheiro/static/js/2.bfc2333b.chunk.js"
   },
   {
     "revision": "64bea2e190f27355a76963b8cb94bb7b",
-    "url": "/lucas-pinheiro/static/js/2.adfaa579.chunk.js.LICENSE.txt"
+    "url": "/lucas-pinheiro/static/js/2.bfc2333b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2d0b708eee8f70786329",
-    "url": "/lucas-pinheiro/static/js/3.a1c9e30d.chunk.js"
+    "revision": "c3326a61cbda50292b4c",
+    "url": "/lucas-pinheiro/static/js/3.92c754e1.chunk.js"
   },
   {
     "revision": "81896c98bac7b5b16ab1d3790da5b937",
-    "url": "/lucas-pinheiro/static/js/3.a1c9e30d.chunk.js.LICENSE.txt"
+    "url": "/lucas-pinheiro/static/js/3.92c754e1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8806799dcd901c4daa53",
-    "url": "/lucas-pinheiro/static/js/4.a463d173.chunk.js"
+    "revision": "c66e63893e76a8c5c2e4",
+    "url": "/lucas-pinheiro/static/js/4.0f23eb11.chunk.js"
   },
   {
-    "revision": "81953ce97c5424b554f9",
-    "url": "/lucas-pinheiro/static/js/5.108e4022.chunk.js"
+    "revision": "3858c1e17260d31c149a",
+    "url": "/lucas-pinheiro/static/js/5.14f4fd83.chunk.js"
   },
   {
-    "revision": "3ca2aa96d1c95668db47",
-    "url": "/lucas-pinheiro/static/js/6.5b16d7a3.chunk.js"
+    "revision": "7c8e6361e793c26a7ffb",
+    "url": "/lucas-pinheiro/static/js/6.dbd18feb.chunk.js"
   },
   {
-    "revision": "dfb29024b42360885f84",
-    "url": "/lucas-pinheiro/static/js/7.cdeb63ff.chunk.js"
+    "revision": "bad199d58da1dac81f29",
+    "url": "/lucas-pinheiro/static/js/7.ed8404e8.chunk.js"
   },
   {
-    "revision": "6606175ad9cd0cf7a428",
-    "url": "/lucas-pinheiro/static/js/8.4cc4010f.chunk.js"
+    "revision": "818e268ef968a945d9ff",
+    "url": "/lucas-pinheiro/static/js/8.63e29230.chunk.js"
   },
   {
-    "revision": "6f099640a9dedf3ce36a",
-    "url": "/lucas-pinheiro/static/js/9.43cab6d8.chunk.js"
+    "revision": "1c5d4bbff7958d8836c6",
+    "url": "/lucas-pinheiro/static/js/9.22665525.chunk.js"
   },
   {
-    "revision": "7f7b1b68e5c2446cd408",
-    "url": "/lucas-pinheiro/static/js/main.8a1693a3.chunk.js"
+    "revision": "93ab79016189642a1123",
+    "url": "/lucas-pinheiro/static/js/main.644eacd3.chunk.js"
   },
   {
-    "revision": "a4f42d5c63963cc457f6",
-    "url": "/lucas-pinheiro/static/js/runtime-main.dec279fc.js"
+    "revision": "d9c0a9de74dcc9dcdeab",
+    "url": "/lucas-pinheiro/static/js/runtime-main.8ba5c34f.js"
   },
   {
     "revision": "daa1b196da384b67bc8939c1c7f4eac5",
     "url": "/lucas-pinheiro/static/media/algorithm.daa1b196.svg"
   },
   {
-    "revision": "2091cfe40961e4cc27fd1e5511d3f1ab",
-    "url": "/lucas-pinheiro/static/media/artigo1.2091cfe4.jpg"
+    "revision": "42657ac7a3a52fb20024575aa3abe68b",
+    "url": "/lucas-pinheiro/static/media/artigo1.42657ac7.jpg"
   },
   {
     "revision": "d884f2875205cce2d31fbfc848abfa74",
     "url": "/lucas-pinheiro/static/media/artigo2.d884f287.jpg"
+  },
+  {
+    "revision": "85a0bff7080d7175599fb4ec5b57c439",
+    "url": "/lucas-pinheiro/static/media/artigo3.85a0bff7.jpg"
   },
   {
     "revision": "a102e5631626f71ddbc427003063dc0a",
