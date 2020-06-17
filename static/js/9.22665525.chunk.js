@@ -1,2 +1,0 @@
-(this["webpackJsonplucas-pinheiro"]=this["webpackJsonplucas-pinheiro"]||[]).push([[9],{110:function(n,e,t){"use strict";t.r(e),t.d(e,"default",(function(){return p}));var i=t(0),r=t.n(i),u=t(1),a=t(2),c=t(3);function h(){var n=Object(u.a)(["\n  height: 40vh;\n  backdrop-filter: blur(5px);\n\n  @media "," {\n    height: 50vh;\n  }\n  @media "," {\n    height: 500px;\n  }\n"]);return h=function(){return n},n}var o=a.b.div(h(),c.b.md,c.b.xl),p=function(){return r.a.createElement(o,null)}}}]);
-//# sourceMappingURL=9.22665525.chunk.js.map
