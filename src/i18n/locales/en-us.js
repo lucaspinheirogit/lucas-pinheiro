@@ -61,7 +61,8 @@ export default {
     articlesSection: {
       title: 'Articles',
       reactNativePerformance: "How to improve React Native App's Performance",
-      communityContribuition: 'Contributing to the Community'
+      communityContribuition: 'Contributing to the Community',
+      reactI18N: 'How to add internationalization (i18n) to your react app',
     },
     footer: `Copyright © ${new Date().getFullYear()} - Lucas Pinheiro. All rights reserved.`
   }

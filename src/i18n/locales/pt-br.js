@@ -62,7 +62,8 @@ export default {
     articlesSection: {
       title: 'Artigos',
       reactNativePerformance: 'Como melhorar a performance no React Native',
-      communityContribuition: 'Contribuindo para a comunidade'
+      communityContribuition: 'Contribuindo para a comunidade',
+      reactI18N: 'Como adicionar internacionalização (i18n) na sua aplicação React',
     },
     footer: `Copyright © ${new Date().getFullYear()} - Lucas Pinheiro. Todos os direitos reservados.`
   }
