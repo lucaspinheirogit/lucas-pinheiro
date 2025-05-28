@@ -2,20 +2,16 @@ import { Layout } from '@/components/dom/Layout'
 import '@/global.css'
 
 export const metadata = {
-  title: 'Next.js + Three.js',
-  description: 'A minimal starter for Nextjs + React-three-fiber and Threejs.',
+  title: 'Lucas Pinheiro',
+  description:
+    'Transforming complex ideas into scalable, intuitive web experiences with a product-driven mindset. I design and build responsive frontends, robust backends, and AI-powered systems that solve real problems and deliver impact.',
 }
 
 export default function RootLayout({ children }) {
   return (
     <html lang='en' className='antialiased'>
-      {/*
-        <head /> will contain the components returned by the nearest parent
-        head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      */}
       <head />
       <body>
-        {/* To avoid FOUT with styled-components wrap Layout with StyledComponentsRegistry https://beta.nextjs.org/docs/styling/css-in-js#styled-components */}
         <Layout>{children}</Layout>
       </body>
     </html>
